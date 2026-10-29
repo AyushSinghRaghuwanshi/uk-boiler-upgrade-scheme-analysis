@@ -1,0 +1,6827 @@
+{
+  "BUS: Cover Sheet": [
+    [
+      "Boiler Upgrade Scheme (BUS) monthly statistics\nEngland and Wales: September 2026",
+      null
+    ],
+    [
+      "Queries and feedback about this publication are welcomed and can be sent to:",
+      null
+    ],
+    [
+      "energyefficiency.stats@energysecurity.gov.uk",
+      null
+    ],
+    [
+      "Press enquiries:",
+      null
+    ],
+    [
+      "0300 068 8084 ",
+      null
+    ],
+    [
+      "Publication dates ",
+      null
+    ],
+    [
+      "These statistics were published on 29 October 2026.",
+      null
+    ],
+    [
+      "These statistics will next be published on 26 November 2026.",
+      null
+    ],
+    [
+      "A publication timetable for all upcoming DESNZ statistics is available online.",
+      null
+    ],
+    [
+      "Description",
+      null
+    ],
+    [
+      "This spreadsheet forms part of the statistics publication for the Boiler Upgrade Scheme (BUS) produced by the Department for Energy Security and Net Zero (DESNZ). The data presented show the uptake in the scheme to date: number of vouchers applications and redemptions, as well as costs of installation.",
+      null
+    ],
+    [
+      "Data period",
+      null
+    ],
+    [
+      "This workbook contains cumulative, monthly, quarterly and annual data. Figures are published one month in arrears.",
+      null
+    ],
+    [
+      "Amendments",
+      null
+    ],
+    [
+      "Amendments to these published statistics may occur when:\na. revised or validated data is subsequently received from a data supplier, for example, due to the approval processes involved there may be a time lag in an application appearing in the figures or an applicant may cancel or re-submit applications in order to change certain details\nb. a figure was incorrect due to a typographical or similar error\nc. methodological improvements\nFor cumulative and monthly statistics, these changes will be reflected in the next statistical release. For quarterly and annual statistics, any changes will be updated on a quarterly basis in January, April, July and October. If the revision is considered to be major and has a material impact that could affect decisions made on the basis of the data, then an unscheduled correction will be made as soon as possible, along with an explanation of the revision and any impact.",
+      null
+    ]
+  ],
+  "BUS: Contents": [
+    [
+      "Contents",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "These statistics provide an update on the uptake of the Boiler Upgrade Scheme (BUS).",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Worksheet name",
+      "Worksheet content",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Scheme background",
+      "Background to the Boiler Upgrade Scheme (BUS).",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Glossary",
+      "Glossary of terms",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Commentary",
+      "Headline statistics included in this release",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Charts",
+      "Charts visualising some of the main statistics within this release",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Boiler Upgrade Scheme (BUS) tables",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Cumulative applications and redemptions",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "1.1",
+      "Number of vouchers by status and technology type, \nEngland and Wales, May 2022 to September 2026",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "1.2A",
+      "Number of applications by status, country or region and technology type,\nEngland and Wales, May 2022 to September 2026",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "1.2B",
+      "Number of domestic applications by status, country or region and technology type, per 10,000 households\nEngland and Wales, May 2022 to September 2026",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Cumulative redemptions by characteristics",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "1.3",
+      "Number of redemptions paid by fuel type displaced and technology type, \nEngland and Wales, May 2022 to September 2026",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "1.4",
+      "Number of redemptions paid by whether the property is domestic or non-domestic and technology type, England and Wales, May 2022 to September 2026",
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "BUS: Scheme background": [
+    [
+      "Scheme background",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "In order to meet the UK's target of reducing emissions to net zero by 2050, virtually all heating of buildings will need to be decarbonised. The Boiler Upgrade Scheme (BUS) aims to incentivise and increase the deployment of low carbon heating technologies by providing an upfront capital grant towards the cost of an installation of air-to-water heat pumps (AWHP), air-to-air heat pumps (AAHP), ground source heat pumps (GSHP) and, in limited circumstances, biomass boilers.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "BUS has three main objectives for 2025/26 to 2029/30:",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "1) Increase deployment of low carbon heating systems, particularly heat pumps but also heat batteries and in limited circumstances biomass boilers in 390,000 homes and small non-domestic buildings through full budget utilisation between 2025/26 and 2029/30, supporting the aims of the clean energy superpower mission to decarbonise homes and meet Net Zero targets. ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "2) Contribute to decarbonising heating in England and Wales and to meeting carbon budgets by delivering up to 0.5, 3.4, 4.0 and 4.1 MtCO2e of carbon savings over Carbon Budgets 4, 5, 6, and 7 and 14.0 MtCO2e over the lifetime of the extended scheme. Measured by calculating the renewable heat generated from BUS-funded installations of low-carbon heating technologies. ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "3) Stimulating demand for low carbon heating technologies via the BUS grant to grow the market. With full budget utilisation, this will subsequently support 13,600 direct full-time equivalent (FTE) and 3,800 indirect FTE up to March 2030, contributing significantly towards realising a 20-25% real terms reduction in the average cost of BUS-supported AWHP installation costs by 2030 relative to 2022/23 (compared to the scheme\u2019s launch).",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "An evaluation of the scheme against its objectives during its initial phase, between 2022/23 and 2025/26, is published on GOV.UK.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The scheme is administered by the Office of Gas and Electricity Markets (Ofgem) and is an installer-led scheme, meaning that the installer of the low-carbon heating technology submits a voucher application on behalf of the property owner. Ofgem then contacts the property owner, who will need to provide consent and confirm that the installer is acting on their behalf. Ofgem also carries out checks to confirm that the property is eligible before issuing a voucher. ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "A voucher is redeemed when an installer completes an installation and submits a voucher redemption application which is subsequently approved by Ofgem. If approved, the grant will then be paid directly to the installer. The price paid by the property owner is the total cost of the installation less the value of the grant.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "To be eligible, all BUS installations must be Microgeneration Certification Scheme (MCS) certified. Vouchers are issued on a first come, first served basis, to applicants who meet the eligibility requirements until the budget cap for the financial year is reached.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "AWHP, AAHP and biomass boiler vouchers are valid for 3 months while GSHP vouchers are valid for 6 months.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "For more information about the scheme or for details on how to apply for a grant, please see the Ofgem website.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The scheme is in its fifth year, with a budget of \u00a3400 million for 2026/27. The Government confirmed funding for further years up to 2029/30 through the Warm Homes Plan in January 2026. Across the first four years of the scheme, over \u00a3560 million was paid out through grants.  ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Information on the total value of all grants paid to date and how much of the budget is remaining is published by Ofgem on a monthly basis.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The current scheme grant values are:\n       \u2022  \u00a37,500 towards an air-to-water heat pump\n       \u2022  \u00a37,500 towards a ground source heat pump (including water source heat pumps and those on shared ground loops)   \n       \u2022  \u00a32,500 towards an air-to-air heat pump\n       \u2022  \u00a35,000 towards a biomass boiler\n       \u2022  \u00a39,000 towards an air-to-water or ground source heat pump for eligible off-grid properties heated by LPG or oil.\n",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "BUS: Glossary": [
+    [
+      "Glossary",
+      null
+    ],
+    [
+      "This worksheet contains one table.",
+      null
+    ],
+    [
+      "Term",
+      "Description"
+    ],
+    [
+      "Air-to-Air Heat Pumps (AAHP)",
+      "Air-to-air heat pumps mean a plant which generates heat using a thermodynamic cycle by transferring energy stored in the form of heat in the air and uses that energy to heat air for the purposes of space heating"
+    ],
+    [
+      "Air-to-Water Heat Pumps (AWHP)",
+      "Air-to-water heat pumps mean a plant which generates heat using a thermodynamic cycle by transferring energy stored in the form of heat in the air and uses that energy to heat a liquid for the purposes of space heating."
+    ],
+    [
+      "Biomass Boiler",
+      "A biomass boiler is a plant which:\n(a) is designed and installed to burn solid biomass to provide heat\n(b) is designed to minimise direct heat loss to the immediate area in which it is installed\n(c) is not capable of providing heat to a property without using a liquid to deliver that heat, and\n(d) is not designed to generate heat for the purpose of cooking food"
+    ],
+    [
+      "Boiler Upgrade Scheme (BUS)",
+      "A policy in England and Wales that came into force on 1 April 2022, and aims to incentivise the installation of low carbon technologies through providing a grant towards the upfront costs."
+    ],
+    [
+      "Disclosure",
+      "Disclosure is when individual persons or businesses can be identified in sensitive statistics. We apply suppression or use other methods to affected cells in order to prevent disclosure."
+    ],
+    [
+      "Energy Performance Certificate (EPC)",
+      "A certificate that gives a property an energy efficiency rating from A (most efficient) to G (least efficient). EPCs are valid for 10 years."
+    ],
+    [
+      "Fuel type displaced",
+      "This was the previous fuel type of the heating system at the property that is being replaced with a heat pump or biomass boiler through the BUS."
+    ],
+    [
+      "Ground Source Heat Pump (GSHP)",
+      "Ground source heat pumps mean a plant which generates heat using a thermodynamic cycle by transferring energy stored in the form of heat from the ground, including water in the ground or surface water or both, and uses that energy to heat a liquid for the purposes of space heating"
+    ],
+    [
+      "Shared Ground Loop Ground Source Heat Pump",
+      "Shared Ground Loop' Ground Source Heat Pumps is the name given to a communal system that provides heat to two or more properties using individual GSHPs connected to it."
+    ],
+    [
+      "Installation capacity",
+      "The capacity of the system is the maximum power output. This depends on the installation's size and technical capability. Any system installed that is partly funded by the BUS should have a maximum installed capacity of 45kW."
+    ],
+    [
+      "Liquefied Petroleum Gas (LPG)",
+      "LPG is a fuel source used for heating homes. It is a mixture of flammable hydrocarbons compressed to liquid form and stored in canisters."
+    ],
+    [
+      "Microgeneration Certification Scheme (MCS)",
+      "The MCS is a certification scheme that sets and maintains standards for microgeneration installation companies and products."
+    ]
+  ],
+  "BUS: Commentary": [
+    [
+      "Commentary",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This release presents the latest statistics on the Boiler Upgrade Scheme (BUS) up to the end of September 2026. For more detail about the BUS, please see the 'Scheme background' tab.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Key points:",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "a) Up until the end of September 2026, there were 160,874 BUS voucher applications received. The majority of these were for grants towards AWHP installations (98%). [Table 1.1]",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "b) The total number of applications in September 2026 across all technology types (9,738) was 30% higher than the previous month (August 2026: 7,486). September 2026 was the highest number of voucher applications in a month since the scheme started and is 138% higher than the same month of the previous year (September 2025; 4,089). [Table M1.1]. From July 2026, installers could apply on behalf of owners of eligible off-gas-grid properties heated by LPG or oil for a \u00a39,000 grant towards installing an air-to-water or ground source heat pump (see Scheme background for details).From this scheme change until the end of September, 8,107 applications for the \u00a39,000 grant were received. These applications were 32% of the 25,374 total applications received in July to September 2026.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "c) Up until the end of September 2026 a total of 131,619 vouchers were issued. September 2026 volumes (6,298) were 7% higher than the previous month (August 2026; 5,903) and 73% higher than the same month in the previous year (September 2025; 3,640). [Table M1.1]. September 2026 was the highest number of vouchers issued in a month since the scheme started. In September 2026, 2,035 vouchers issued were for the \u00a39,000 grant, representing 32% of all vouchers issued in the month.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "d) The number of redemption applications in September 2026 across all technology types (3,972) was 19% higher than the previous month (August 2026; 3,329). [Table M1.1]. September 2026 was the highest number of redemption applications in a month since the scheme started. In September 2026, 1,446 redemption applications were for the \u00a39,000 grant, representing 36% of total redemption applications received in the month.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "e) There were 3,332 redemptions paid in September 2026, bringing the total number of redemptions paid through the scheme to 96,611. [Table M1.1]. September 2026 was the highest number of redemptions paid in a month since the scheme started. In September 2026, 1,205 redemptions paid were for the \u00a39,000 grant, representing 36% of total redemptions paid in the month.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "f) To the end of September 2026, the national and regional breakdown for redemptions paid continued to be broadly similar to previous months. Of the total number of redemptions paid, the largest number were for installations at properties in the South East region (19,069; 20%), followed by the South West region (17,168; 18%). The fewest number of redemptions paid were in the North East region (3,033; 3%). Wales accounted for 5% of the total (5,148 redemptions paid). [Table 1.2A]",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "g) Of the total 96,611 installations with BUS redemptions paid up to the end of September 2026, the largest proportion (55%) replaced gas systems, followed by oil (18%) and then properties which did not previously have a heating system at all (13%). [Table 1.3]",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "h) The nominal median cost of an AWHP and GSHP in the most recent quarter (2026 Q3; July to September) was \u00a312,826 and \u00a334,630, respectively (including the grant value). After adjusting for inflation, the median cost of an AWHP in 2026 Q3 is 14% lower than the same period in the first year of the scheme (2022 Q3; \u00a314,989). The underlying mix of heat pump sizes can influence the trend in median costs over time. [Table Q1.1A and Q1.1B]",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "i) Of all redemptions paid on the scheme to the end of September 2026, there has been an almost even split between installations in urban and rural areas, 51% urban to 49% rural. The majority of properties in receipt of grants were on the gas grid (59,162; 61%). [Tables 1.5 and 1.6]",
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "BUS: Charts": [
+    [
+      "Charts visualising main statistics",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains 5 charts. The charts visualise some of the main statistics within this release.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "BUS: 1.1": [
+    [
+      "Table 1.1 - Number and percentage of vouchers by status and technology type, England and Wales, May 2022 to September 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 1] [note 2]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Status",
+      "Air-to-Water Heat Pumps",
+      "Air-to-Air \nHeat Pumps",
+      "Ground Source \nHeat Pumps",
+      "Shared Ground Loop Ground Source Heat Pumps",
+      "Biomass boilers",
+      "All \ntechnology types",
+      null
+    ],
+    [
+      "Voucher applications received",
+      "157573",
+      "157",
+      "2455",
+      "75",
+      "614",
+      "160874",
+      null
+    ],
+    [
+      "Vouchers issued",
+      "128972",
+      "0",
+      "2073",
+      "46",
+      "528",
+      "131619",
+      null
+    ],
+    [
+      "Redemption applications received",
+      "96626",
+      "0",
+      "1633",
+      "37",
+      "439",
+      "98735",
+      null
+    ],
+    [
+      "Redemptions paid",
+      "94545",
+      "0",
+      "1603",
+      "37",
+      "426",
+      "96611",
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Status",
+      "Air-to-Water Heat Pumps",
+      "Air-to-Air \nHeat Pumps",
+      "Ground Source \nHeat Pumps",
+      "Shared Ground Loop Ground Source Heat Pumps",
+      "Biomass boilers",
+      "All \ntechnology types",
+      null
+    ],
+    [
+      "Voucher applications received",
+      "0.979",
+      "0.001",
+      "0.015",
+      "0",
+      "0.004",
+      "1",
+      null
+    ],
+    [
+      "Vouchers issued",
+      "0.98",
+      "0",
+      "0.016",
+      "0",
+      "0.004",
+      "1",
+      null
+    ],
+    [
+      "Redemption applications received",
+      "0.979",
+      "0",
+      "0.017",
+      "0",
+      "0.004",
+      "1",
+      null
+    ],
+    [
+      "Redemptions paid",
+      "0.979",
+      "0",
+      "0.017",
+      "0",
+      "0.004",
+      "1",
+      null
+    ]
+  ],
+  "BUS: 1.2A": [
+    [
+      "Table 1.2A - Number of applications by status, country or region and technology type, England and Wales, May 2022 to September 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are turned on in the Excel version. To turn off freeze panes, select the 'View' ribbon, then 'Freeze Panes' and then 'Unfreeze Panes'. Or use [ALT W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 3]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, National Statistics Postcode Lookup (ONS)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "NSPL: Office for National Statistics licensed under the Open Government Licence v.3.0",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains OS data \u00a9 Crown copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains Royal Mail data \u00a9 Royal Mail copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Area Codes",
+      "Country or Region",
+      "Voucher applications received:\nAir-to-Water Heat Pumps",
+      "Voucher applications received:\nAir-to-Air Heat Pumps",
+      "Voucher applications received: \nGround Source Heat Pumps ",
+      "Voucher applications received:\nShared Ground Loop Ground Source Heat Pumps",
+      "Voucher applications received:\nBiomass boilers",
+      "Voucher applications received:\nTotal",
+      "Vouchers \nissued:\nAir-to-Water \nHeat Pumps",
+      "Vouchers \nissued:\nAir-to-Air \nHeat Pumps"
+    ],
+    [
+      "K04000001",
+      "England and Wales",
+      "157573",
+      "157",
+      "2455",
+      "75",
+      "614",
+      "160874",
+      "128972",
+      "0"
+    ],
+    [
+      "E92000001",
+      "England",
+      "149143",
+      "144",
+      "2263",
+      "72",
+      "353",
+      "151975",
+      "122070",
+      "0"
+    ],
+    [
+      "E12000001",
+      "North East",
+      "5342",
+      "4",
+      "59",
+      "0",
+      "47",
+      "5452",
+      "4190",
+      "0"
+    ],
+    [
+      "E12000002",
+      "North West",
+      "14255",
+      "14",
+      "182",
+      "1",
+      "54",
+      "14506",
+      "11139",
+      "0"
+    ],
+    [
+      "E12000003",
+      "Yorkshire and the Humber",
+      "14895",
+      "16",
+      "198",
+      "3",
+      "12",
+      "15124",
+      "11663",
+      "0"
+    ],
+    [
+      "E12000004",
+      "East Midlands",
+      "14755",
+      "11",
+      "178",
+      "6",
+      "14",
+      "14964",
+      "12005",
+      "0"
+    ]
+  ],
+  "BUS: 1.2B": [
+    [
+      "Table 1.2B - Number of domestic applications by status, country or region and technology type per 10,000 households, England and Wales, May 2022 to September 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are turned on in the Excel version. To turn off freeze panes, select the 'View' ribbon, then 'Freeze Panes' and then 'Unfreeze Panes'. Or use [ALT W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 3]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, Families and households in the UK: 2025 (ONS), National Statistics Postcode Lookup (ONS) ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "NSPL: Office for National Statistics licensed under the Open Government Licence v.3.0",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains OS data \u00a9 Crown copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains Royal Mail data \u00a9 Royal Mail copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Area Codes",
+      "Country or Region",
+      "Voucher \napplications \nreceived:\nAir-to-Water Heat Pumps",
+      "Voucher \napplications \nreceived:\nAir-to-Air \nHeat Pumps",
+      "Voucher applications received: \nGround Source Heat Pumps ",
+      "Voucher applications received:\n Shared Ground Loop Ground Source Heat Pumps",
+      "Voucher applications received:\n Biomass boilers",
+      "Voucher applications received:\nTotal",
+      "Vouchers \nissued:\nAir-to-Water \nHeat Pumps",
+      "Vouchers \nissued:\nAir-to-Air \nHeat Pumps"
+    ],
+    [
+      "K04000001",
+      "England and Wales",
+      "55.014572727626",
+      "0.06101115299420976",
+      "0.7803209886138421",
+      "0.01826448529126025",
+      "0.22616873275560562",
+      "56.10033808728092",
+      "47.89919558543504",
+      "0"
+    ],
+    [
+      "E92000001",
+      "England",
+      "55.08857741789634",
+      "0.05918862263142751",
+      "0.758354227465165",
+      "0.018496444572321098",
+      "0.13975091454642607",
+      "56.06436762711168",
+      "47.981421349007356",
+      "0"
+    ],
+    [
+      "E12000001",
+      "North East",
+      "40.19409282700422",
+      "0.03375527426160337",
+      "0.33755274261603374",
+      "0",
+      "0.379746835443038",
+      "40.9451476793249",
+      "33.721518987341774",
+      "0"
+    ],
+    [
+      "E12000002",
+      "North West",
+      "39.61361545538178",
+      "0.04293161606869058",
+      "0.4661146887457835",
+      "0",
+      "0.1625268322600429",
+      "40.2851885924563",
+      "32.86415210058264",
+      "0"
+    ],
+    [
+      "E12000003",
+      "Yorkshire and the Humber",
+      "57.07130730050934",
+      "0.06791171477079797",
+      "0.6791171477079796",
+      "0.004244482173174873",
+      "0.050933786078098474",
+      "57.87351443123939",
+      "47.6188455008489",
+      "0"
+    ],
+    [
+      "E12000004",
+      "East Midlands",
+      "62.137153593236256",
+      "0.05166744950681071",
+      "0.732738374823861",
+      "0.023485204321277594",
+      "0.06575857209957726",
+      "63.01080319398778",
+      "54.27430718647252",
+      "0"
+    ]
+  ],
+  "BUS: 1.3": [
+    [
+      "Table 1.3 - Number of redemptions paid by fuel type displaced and technology type, England and Wales, May 2022 to September 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 7] [note 8]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Fuel type displaced",
+      "Air-to-Water\nHeat Pumps:\nNumber",
+      "Air-to-Water\nHeat Pumps:\nPercentage",
+      "Air-to-Air\nHeat \nPumps:\nNumber",
+      "Air-to-Air\nHeat \nPumps:\nPercentage",
+      "Ground \nSource Heat Pumps:\nNumber",
+      "Ground Source Heat Pumps:\nPercentage",
+      "Shared \nGround \nLoop \nGround \nSource Heat \nPumps:\nNumber",
+      "Shared Ground Loop Ground Source Heat Pumps:\nPercentage",
+      "Biomass boilers:\nNumber"
+    ],
+    [
+      "Gas",
+      "53013",
+      "0.5607171188323021",
+      "0",
+      "-",
+      "173",
+      "0.10792264504054896",
+      "4",
+      "0.10810810810810811",
+      "0"
+    ],
+    [
+      "Oil",
+      "16604",
+      "0.1756200750965149",
+      "0",
+      "-",
+      "365",
+      "0.22769806612601373",
+      "6",
+      "0.16216216216216217",
+      "209"
+    ],
+    [
+      "None",
+      "11290",
+      "0.11941403564440213",
+      "0",
+      "-",
+      "881",
+      "0.5495945102932003",
+      "23",
+      "0.6216216216216216",
+      "5"
+    ],
+    [
+      "Direct electric",
+      "9090",
+      "0.09614469300333174",
+      "0",
+      "-",
+      "96",
+      "0.05988771054273238",
+      "1",
+      "0.02702702702702703",
+      "84"
+    ],
+    [
+      "Liquefied Petroleum Gas (LPG)",
+      "2887",
+      "0.03053572372944101",
+      "0",
+      "-",
+      "45",
+      "0.028072364316905803",
+      "1",
+      "0.02702702702702703",
+      "31"
+    ],
+    [
+      "Coal",
+      "914",
+      "0.009667354169971972",
+      "0",
+      "-",
+      "26",
+      "0.016219588271990017",
+      "2",
+      "0.05405405405405406",
+      "79"
+    ],
+    [
+      "Other",
+      "717",
+      "0.007583690306203395",
+      "0",
+      "-",
+      "17",
+      "0.010605115408608859",
+      "0",
+      "0",
+      "17"
+    ],
+    [
+      "Unknown",
+      "30",
+      "0.00031730921783277807",
+      "0",
+      "-",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1"
+    ],
+    [
+      "Total",
+      "94545",
+      "1",
+      "0",
+      "-",
+      "1603",
+      "1",
+      "37",
+      "1",
+      "426"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "BUS: 1.4": [
+    [
+      "Table 1.4 - Number of redemptions paid by whether the property is domestic or non-domestic and technology type, England and Wales, May 2022 to September 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, Microgeneration Certification Scheme (MCS) Installation Database",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Type of property",
+      "Air-to-Water\nHeat Pumps: \nNumber",
+      "Air-to-Water\nHeat Pumps: \nPercentage",
+      "Air-to-Air\nHeat \nPumps: \nNumber",
+      "Air-to-Air\nHeat \nPumps: \nPercentage",
+      "Ground \nSource \nHeat \nPumps:\nNumber",
+      "Ground Source Heat Pumps:\nPercentage",
+      "Shared \nGround \nLoop \nGround \nSource Heat \nPumps:\nNumber",
+      "Shared Ground Loop Ground Source Heat Pumps:\nPercentage",
+      "Biomass boilers:\nNumber"
+    ],
+    [
+      "Domestic",
+      "93942",
+      "0.9936220847215612",
+      "0",
+      "-",
+      "1593",
+      "0.9937616968184654",
+      "34",
+      "0.918918918918919",
+      "424"
+    ],
+    [
+      "Non-domestic",
+      "595",
+      "0.006293299487016764",
+      "0",
+      "-",
+      "9",
+      "0.0056144728633811605",
+      "3",
+      "0.08108108108108109",
+      "2"
+    ],
+    [
+      "Unknown",
+      "8",
+      "8.461579142207415e-05",
+      "0",
+      "-",
+      "1",
+      "0.0006238303181534623",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "Total",
+      "94545",
+      "1",
+      "0",
+      "-",
+      "1603",
+      "1",
+      "37",
+      "1",
+      "426"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "BUS: 1.5": [
+    [
+      "Table 1.5 - Number of redemptions paid by whether the property is in a rural or an urban classification, England and Wales, May 2022 to September 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 9]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, National Statistics Postcode Lookup (ONS)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "NSPL: Office for National Statistics licensed under the Open Government Licence v.3.0",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains OS data \u00a9 Crown copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains Royal Mail data \u00a9 Royal Mail copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Rural/Urban classification",
+      "Air-to-Water Heat Pumps: \nNumber",
+      "Air-to-Water Heat Pumps: \nPercentage",
+      "Air-to-Air \nHeat \nPumps: \nNumber",
+      "Air-to-Air \nHeat \nPumps: \nPercentage",
+      "Ground \nSource Heat Pumps:\nNumber",
+      "Ground Source Heat Pumps:\nPercentage",
+      "Shared \nGround \nLoop \nGround \nSource Heat \nPumps:\nNumber",
+      "Shared Ground Loop Ground Source Heat Pumps:\nPercentage",
+      "Biomass boilers:\nNumber"
+    ],
+    [
+      "Rural",
+      "45324",
+      "0.4793907663017611",
+      "0",
+      "-",
+      "1341",
+      "0.8365564566437929",
+      "31",
+      "0.8378378378378378",
+      "426"
+    ],
+    [
+      "Urban",
+      "49221",
+      "0.520609233698239",
+      "0",
+      "-",
+      "262",
+      "0.16344354335620712",
+      "6",
+      "0.16216216216216217",
+      "0"
+    ],
+    [
+      "Total",
+      "94545",
+      "1",
+      "0",
+      "-",
+      "1603",
+      "1",
+      "37",
+      "1",
+      "426"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "BUS: 1.6": [
+    [
+      "Table 1.6 - Number of redemptions paid by whether the property is on or off the gas grid, England and Wales, May 2022 to September 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 10]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, Xoserve, National Statistics Postcode Lookup (ONS)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "NSPL: Office for National Statistics licensed under the Open Government Licence v.3.0",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains OS data \u00a9 Crown copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains Royal Mail data \u00a9 Royal Mail copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "On/off gas grid",
+      "Air-to-Water Heat Pumps: \nNumber",
+      "Air-to-Water Heat Pumps: \nPercentage",
+      "Air-to-Air \nHeat \nPumps: \nNumber",
+      "Air-to-Air \nHeat \nPumps: \nPercentage",
+      "Ground \nSource Heat Pumps:\nNumber",
+      "Ground Source Heat Pumps:\nPercentage",
+      "Shared \nGround \nLoop \nGround \nSource Heat \nPumps:\nNumber",
+      "Shared Ground Loop Ground Source Heat Pumps:\nPercentage",
+      "Biomass boilers:\nNumber"
+    ],
+    [
+      "On gas grid",
+      "58868",
+      "0.6226453011793326",
+      "0",
+      "-",
+      "289",
+      "0.1802869619463506",
+      "5",
+      "0.13513513513513514",
+      "0"
+    ],
+    [
+      "Off gas grid",
+      "35677",
+      "0.3773546988206674",
+      "0",
+      "-",
+      "1314",
+      "0.8197130380536494",
+      "32",
+      "0.8648648648648649",
+      "426"
+    ],
+    [
+      "Total",
+      "94545",
+      "1",
+      "0",
+      "-",
+      "1603",
+      "1",
+      "37",
+      "1",
+      "426"
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "BUS: M1.1": [
+    [
+      "Table M1.1 - Number of monthly applications by status and technology type, England and Wales, May 2022 to September 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are turned on in the Excel version. To turn off freeze panes, select the 'View' ribbon, then 'Freeze Panes' and then 'Unfreeze Panes'. Or use [ALT W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Monthly application figures may be revised each month due to applicants cancelling and re-submitting applications in order to change certain details of the application, or due to applications being rejected.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 11]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Voucher status",
+      "Technology type",
+      "May\n2022",
+      "Jun\n2022",
+      "Jul\n2022",
+      "Aug\n2022",
+      "Sep\n2022",
+      "Oct\n2022",
+      "Nov\n2022",
+      "Dec\n2022"
+    ],
+    [
+      "Voucher applications received",
+      "All technology types",
+      "1122",
+      "1577",
+      "1668",
+      "1390",
+      "1516",
+      "1646",
+      "1666",
+      "924"
+    ],
+    [
+      "Voucher applications received",
+      "Air-to-Water Heat Pumps",
+      "1088",
+      "1528",
+      "1598",
+      "1318",
+      "1448",
+      "1590",
+      "1601",
+      "891"
+    ],
+    [
+      "Voucher applications received",
+      "Air-to-Air Heat Pumps",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "Voucher applications received",
+      "Ground Source Heat Pumps",
+      "18",
+      "30",
+      "53",
+      "47",
+      "48",
+      "36",
+      "50",
+      "23"
+    ],
+    [
+      "Voucher applications received",
+      "Shared Ground Loop Ground Source Heat Pumps",
+      "4",
+      "0",
+      "0",
+      "3",
+      "0",
+      "0",
+      "0",
+      "2"
+    ],
+    [
+      "Voucher applications received",
+      "Biomass boilers",
+      "12",
+      "19",
+      "17",
+      "22",
+      "20",
+      "20",
+      "15",
+      "8"
+    ],
+    [
+      "Vouchers issued",
+      "All technology types",
+      "17",
+      "834",
+      "2046",
+      "1486",
+      "1205",
+      "1479",
+      "1669",
+      "1143"
+    ],
+    [
+      "Vouchers issued",
+      "Air-to-Water Heat Pumps",
+      "17",
+      "818",
+      "1972",
+      "1403",
+      "1155",
+      "1429",
+      "1599",
+      "1101"
+    ]
+  ],
+  "BUS: M1.2": [
+    [
+      "Table M1.2 - Number of heat pump applications by status, country or region and month, England and Wales, May 2022 to September 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are turned on in the Excel version. To turn off freeze panes, select the 'View' ribbon, then 'Freeze Panes' and then 'Unfreeze Panes'. Or use [ALT W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 3] [note 11] [note 25]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, National Statistics Postcode Lookup (ONS)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "NSPL: Office for National Statistics licensed under the Open Government Licence v.3.0",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains OS data \u00a9 Crown copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains Royal Mail data \u00a9 Royal Mail copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Status",
+      "Area Codes",
+      "Country or Region",
+      "May\n2022",
+      "Jun\n2022",
+      "Jul\n2022",
+      "Aug\n2022",
+      "Sep\n2022",
+      "Oct\n2022",
+      "Nov\n2022"
+    ],
+    [
+      "Voucher applications received",
+      "K04000001",
+      "England and Wales",
+      "1110",
+      "1558",
+      "1651",
+      "1368",
+      "1496",
+      "1626",
+      "1651"
+    ],
+    [
+      "Voucher applications received",
+      "E92000001",
+      "England",
+      "1037",
+      "1454",
+      "1547",
+      "1288",
+      "1421",
+      "1555",
+      "1543"
+    ],
+    [
+      "Voucher applications received",
+      "E12000001",
+      "North East",
+      "35",
+      "40",
+      "40",
+      "42",
+      "36",
+      "36",
+      "47"
+    ],
+    [
+      "Voucher applications received",
+      "E12000002",
+      "North West",
+      "75",
+      "125",
+      "113",
+      "92",
+      "137",
+      "106",
+      "145"
+    ],
+    [
+      "Voucher applications received",
+      "E12000003",
+      "Yorkshire and the Humber",
+      "104",
+      "168",
+      "170",
+      "142",
+      "180",
+      "181",
+      "173"
+    ],
+    [
+      "Voucher applications received",
+      "E12000004",
+      "East Midlands",
+      "77",
+      "120",
+      "166",
+      "180",
+      "164",
+      "190",
+      "184"
+    ]
+  ],
+  "BUS: Q1.1A": [
+    [
+      "Table Q1.1A - Median, lower quartile and upper quartile reported cost (\u00a3) and capacity (kW) of redemptions paid by technology type and quarter, England and Wales, May 2022 to September 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are turned on in the Excel version. To turn off freeze panes, select the 'View ribbon, then 'Freeze Panes' and then 'Unfreeze Panes'. Or use [ALT W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [c1] is used to indicate cases where there are between 1 and 4 data points inclusive. This is cost information perceived to be personally or commercially sensitive and so average cost information has been suppressed to avoid disclosure.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [c2] refers to values greater than 4, which have been suppressed where only one other value within the group was suppressed to prevent disclosure.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [x] is used to indicate that there is no data available.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 4] [note 5] [note 6]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, Microgeneration Certification Scheme (MCS) Installation Database",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Technology type",
+      "Measure",
+      "2022 Q2:\nApr to Jun",
+      "2022 Q3:\nJul to Sep",
+      "2022 Q4:\nOct to Dec",
+      "2023 Q1:\nJan to Mar",
+      "2023 Q2:\nApr to Jun",
+      "2023 Q3:\nJul to Sep",
+      "2023 Q4:\nOct to Dec",
+      "2024 Q1:\nJan to Mar"
+    ],
+    [
+      "Air-to-Water Heat Pump",
+      "Median cost of installation (\u00a3)",
+      "13182",
+      "12860",
+      "12969",
+      "13256",
+      "13400",
+      "13495",
+      "13600",
+      "13000"
+    ],
+    [
+      "Air-to-Water Heat Pump",
+      "Lower quartile cost of installation (\u00a3)",
+      "10913",
+      "10976",
+      "10794",
+      "10880",
+      "11056",
+      "11190",
+      "11200",
+      "10731"
+    ],
+    [
+      "Air-to-Water Heat Pump",
+      "Upper quartile cost of installation (\u00a3)",
+      "15205",
+      "15000",
+      "15132",
+      "15800",
+      "15940",
+      "15995",
+      "16170",
+      "15778"
+    ],
+    [
+      "Air-to-Air Heat Pump",
+      "Median cost of installation (\u00a3)",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]"
+    ],
+    [
+      "Air-to-Air Heat Pump",
+      "Lower quartile cost of installation (\u00a3)",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]"
+    ],
+    [
+      "Air-to-Air Heat Pump",
+      "Upper quartile cost of installation (\u00a3)",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]"
+    ]
+  ],
+  "BUS: Q1.1B": [
+    [
+      "Table Q1.1B - Inflation adjusted (real) median, lower quartile and upper quartile reported cost (\u00a3) of redemptions paid by technology type and quarter in 2026 Q2 prices, England and Wales, May 2022 to September 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are turned on in the Excel version. To turn off freeze panes, select the 'View ribbon, then 'Freeze Panes' and then 'Unfreeze Panes'. Or use [ALT W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [c1] is used to indicate cases where there are between 1 and 4 data points inclusive. This is cost information perceived to be personally or commercially sensitive and so average cost information has been suppressed to avoid disclosure.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [c2] refers to values greater than 4, which have been suppressed where only one other value within the group was suppressed to prevent disclosure.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [x] is used to indicate that there is no data available.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 4] [note 5] [note 6] [note 28]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, Microgeneration Certification Scheme (MCS) Installation Database, Office for National Statistics (ONS) Consumer Price Inflation index",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Technology type",
+      "Measure",
+      "2022 Q2:\nApr to Jun",
+      "2022 Q3:\nJul to Sep",
+      "2022 Q4:\nOct to Dec",
+      "2023 Q1:\nJan to Mar",
+      "2023 Q2:\nApr to Jun",
+      "2023 Q3:\nJul to Sep",
+      "2023 Q4:\nOct to Dec",
+      "2024 Q1:\nJan to Mar"
+    ],
+    [
+      "Air-to-Water Heat Pump",
+      "Median real cost of installation (\u00a3)",
+      "15657.032258064515",
+      "14989.415584415585",
+      "14698.882399368586",
+      "14906.512137823021",
+      "14677.650648360031",
+      "14747.960426179603",
+      "14795.151515151516",
+      "14110.355253212394"
+    ],
+    [
+      "Air-to-Water Heat Pump",
+      "Lower quartile real cost of installation (\u00a3)",
+      "12962.008271298593",
+      "12793.454545454544",
+      "12233.767955801104",
+      "12234.675019577133",
+      "12110.157131960335",
+      "12228.949771689497",
+      "12184.242424242424",
+      "11647.555555555553"
+    ],
+    [
+      "Air-to-Water Heat Pump",
+      "Upper quartile real cost of installation (\u00a3)",
+      "18059.8676592225",
+      "17483.766233766233",
+      "17150.396211523283",
+      "17767.267032106498",
+      "17459.832189168574",
+      "17480.07610350076",
+      "17591",
+      "17125.629629629628"
+    ],
+    [
+      "Air-to-Air Heat Pump",
+      "Median real cost of installation (\u00a3)",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]"
+    ],
+    [
+      "Air-to-Air Heat Pump",
+      "Lower quartile real cost of installation (\u00a3)",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]"
+    ],
+    [
+      "Air-to-Air Heat Pump",
+      "Upper quartile real cost of installation (\u00a3)",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]",
+      "[x]"
+    ]
+  ],
+  "BUS: Q1.2": [
+    [
+      "Table Q1.2 - Number of redemptions paid by Local Authority, England and Wales, May 2022 to September 2026",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are turned on in the Excel version. To turn off freeze panes, select the 'View ribbon, then 'Freeze Panes' and then 'Unfreeze Panes'. Or use [ALT W, F].",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Empty cells indicate geographical hierarchies, with countries and regions in column B, and smaller geographical areas in columns C and D.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [c1] is used to indicate cases where there are between 1 and 4 data points inclusive, which have been suppressed to prevent disclosure.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [c2] refers to values greater than 4, which have been suppressed where only one other value within the group was suppressed to prevent disclosure.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [c3] is used for Local Authorities in the East of England region only, where applying the rules above did not prevent disclosure. This refers to values between 0 and 4 data points inclusive.",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 3] [note 6] [note 11]",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, National Statistics Postcode Lookup (ONS)",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "NSPL: Office for National Statistics licensed under the Open Government Licence v.3.0",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains OS data \u00a9 Crown copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains Royal Mail data \u00a9 Royal Mail copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Area Codes",
+      "Country or Region",
+      "County or Unitary Authority",
+      "Local Authority Districts",
+      "Heat pump technologies [note 24]",
+      "Biomass boilers"
+    ],
+    [
+      "K04000001",
+      "England and Wales",
+      null,
+      null,
+      "96185",
+      "426"
+    ],
+    [
+      "E92000001",
+      "England",
+      null,
+      null,
+      "91205",
+      "258"
+    ]
+  ],
+  "BUS: Q1.3": [
+    [
+      "Table Q1.3 - Number of redemptions paid by Parliamentary Constituency, England and Wales, May 2022 to September 2026",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are turned on in the Excel version. To turn off freeze panes, select the 'View ribbon, then 'Freeze Panes' and then 'Unfreeze Panes'. Or use [ALT W, F].",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Empty cells indicate geographical hierarchies, with countries and regions in column B, and smaller geographical areas in columns C and D.",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [c1] is used to indicate cases where there are between 1 and 4 data points inclusive, which have been suppressed to prevent disclosure.",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [c2] refers to values greater than 4, which have been suppressed where only one other value within the group was suppressed to prevent disclosure.",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [c3] is used for Parliamentary Constituencies in the East of England and South East regions only, where applying the rules above did not prevent disclosure.",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 3] [note 6] [note 11] [note 26]",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, National Statistics Postcode Lookup (ONS)",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "NSPL: Office for National Statistics licensed under the Open Government Licence v.3.0",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains OS data \u00a9 Crown copyright and database right 2026",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains Royal Mail data \u00a9 Royal Mail copyright and database right 2026",
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Area Codes",
+      "Country or Region",
+      "Westminster Parliamentary Constituency",
+      "Heat pump technologies [note 24]",
+      "Biomass boilers"
+    ],
+    [
+      "K04000001",
+      "England and Wales",
+      null,
+      "96185",
+      "426"
+    ],
+    [
+      "E92000001",
+      "England",
+      null,
+      "91205",
+      "258"
+    ]
+  ],
+  "BUS: A1.1A": [
+    [
+      "Table A1.1A - Number of applications by status, region and technology type broken down by financial year, England and Wales, 2022/23 to 2025/26",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are turned on in the Excel version. To turn off freeze panes, select the 'View ribbon, then 'Freeze Panes' and then 'Unfreeze Panes'. Or use [ALT W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 3]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, National Statistics Postcode Lookup (ONS)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "NSPL: Office for National Statistics licensed under the Open Government Licence v.3.0",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains OS data \u00a9 Crown copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains Royal Mail data \u00a9 Royal Mail copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Financial year",
+      "Area Codes",
+      "Country or Region",
+      "Voucher applications received:\nAir-to-Water Heat \nPumps",
+      "Voucher applications received: \nGround Source Heat Pumps ",
+      "Voucher applications received:\nShared Ground Loop Ground Source Heat Pumps",
+      "Voucher applications received:\nBiomass boilers",
+      "Voucher applications received:\nTotal",
+      "Vouchers \nissued:\nAir-to-Water \nHeat \nPumps",
+      "Vouchers issued:\nGround Source Heat Pumps"
+    ],
+    [
+      "2022/23",
+      "K04000001",
+      "England and Wales",
+      "15129",
+      "445",
+      "13",
+      "181",
+      "15768",
+      "13181",
+      "378"
+    ],
+    [
+      "2022/23",
+      "E92000001",
+      "England",
+      "14251",
+      "412",
+      "13",
+      "110",
+      "14786",
+      "12398",
+      "350"
+    ],
+    [
+      "2022/23",
+      "E12000001",
+      "North East",
+      "400",
+      "13",
+      "0",
+      "24",
+      "437",
+      "347",
+      "10"
+    ],
+    [
+      "2022/23",
+      "E12000002",
+      "North West",
+      "1139",
+      "34",
+      "0",
+      "18",
+      "1191",
+      "981",
+      "28"
+    ],
+    [
+      "2022/23",
+      "E12000003",
+      "Yorkshire and the Humber",
+      "1549",
+      "55",
+      "1",
+      "5",
+      "1610",
+      "1297",
+      "45"
+    ],
+    [
+      "2022/23",
+      "E12000004",
+      "East Midlands",
+      "1547",
+      "27",
+      "3",
+      "5",
+      "1582",
+      "1282",
+      "24"
+    ]
+  ],
+  "BUS: A1.1B": [
+    [
+      "Table A1.1B - Number of domestic applications by status, region and technology type per 10,000 households broken down by financial year, England and Wales, 2022/23 to 2025/26",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are turned on in the Excel version. To turn off freeze panes, select the 'View ribbon, then 'Freeze Panes' and then 'Unfreeze Panes'. Or use [ALT W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 3]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, Families and households in the UK: 2025 (ONS), National Statistics Postcode Lookup (ONS) ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "NSPL: Office for National Statistics licensed under the Open Government Licence v.3.0",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains OS data \u00a9 Crown copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains Royal Mail data \u00a9 Royal Mail copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Financial year",
+      "Area Codes",
+      "Country or Region",
+      "Voucher applications received:\nAir-to-Water Heat Pumps",
+      "Voucher applications received: \nGround Source Heat Pumps ",
+      "Voucher applications received:\nShared Ground Loop Ground Source Heat Pumps",
+      "Voucher applications received:\nBiomass boilers",
+      "Voucher applications received:\nTotal",
+      "Vouchers \nissued:\nAir-to-Water \nHeat \nPumps",
+      "Vouchers issued:\nGround Source Heat Pumps"
+    ],
+    [
+      "2022/23",
+      "K04000001",
+      "England and Wales",
+      "5.410173706913302",
+      "0.1465044884001088",
+      "0.003886060700268138",
+      "0.06878327439474605",
+      "5.629347530408425",
+      "4.959779271752224",
+      "0.1352349123693312"
+    ],
+    [
+      "2022/23",
+      "E92000001",
+      "England",
+      "5.392741173085618",
+      "0.1434502034608903",
+      "0.004110321016071355",
+      "0.04480249907517777",
+      "5.585104196637757",
+      "4.9377286366065185",
+      "0.13276336881910478"
+    ],
+    [
+      "2022/23",
+      "E12000001",
+      "North East",
+      "3.0548523206751055",
+      "0.08438818565400844",
+      "0",
+      "0.1940928270042194",
+      "3.3333333333333335",
+      "2.827004219409283",
+      "0.0759493670886076"
+    ],
+    [
+      "2022/23",
+      "E12000002",
+      "North West",
+      "3.2505366452008584",
+      "0.08586323213738116",
+      "0",
+      "0.05519779208831646",
+      "3.391597669426556",
+      "2.953081876724931",
+      "0.08279668813247469"
+    ],
+    [
+      "2022/23",
+      "E12000003",
+      "Yorkshire and the Humber",
+      "6.039898132427844",
+      "0.18251273344651953",
+      "0",
+      "0.021222410865874362",
+      "6.243633276740238",
+      "5.398981324278438",
+      "0.1697792869269949"
+    ],
+    [
+      "2022/23",
+      "E12000004",
+      "East Midlands",
+      "6.622827618600281",
+      "0.11742602160638797",
+      "0.014091122592766557",
+      "0.023485204321277594",
+      "6.777829967120714",
+      "5.861906998590888",
+      "0.10803193987787693"
+    ]
+  ],
+  "BUS: A1.2": [
+    [
+      "Table A1.2 - Number of redemptions paid by fuel type displaced and technology type broken down by financial year, England and Wales, 2022/23 to 2025/26",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 7] [note 8]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Financial year",
+      "Fuel type displaced",
+      "Air-to-Water Heat Pumps:\nNumber",
+      "Air-to-Water Heat Pumps:\nPercentage",
+      "Ground Source Heat Pumps:\nNumber",
+      "Ground Source Heat Pumps:\nPercentage",
+      "Shared \nGround \nLoop\nGround \nSource Heat Pumps:\nNumber",
+      "Shared Ground Loop Ground Source Heat Pumps:\nPercentage",
+      "Biomass boilers:\nNumber",
+      "Biomass boilers:\nPercentage"
+    ],
+    [
+      "2022/23",
+      "Gas",
+      "4577",
+      "0.47721822541966424",
+      "34",
+      "0.14166666666666666",
+      "2",
+      "0.2222222222222222",
+      "0",
+      "0"
+    ],
+    [
+      "2022/23",
+      "Oil",
+      "2156",
+      "0.22479407778125327",
+      "59",
+      "0.24583333333333332",
+      "0",
+      "0",
+      "67",
+      "0.5982142857142857"
+    ],
+    [
+      "2022/23",
+      "None",
+      "1437",
+      "0.14982796371598373",
+      "122",
+      "0.5083333333333333",
+      "5",
+      "0.5555555555555556",
+      "4",
+      "0.03571428571428571"
+    ],
+    [
+      "2022/23",
+      "Direct electric",
+      "855",
+      "0.08914607444479199",
+      "14",
+      "0.058333333333333334",
+      "0",
+      "0",
+      "16",
+      "0.14285714285714285"
+    ],
+    [
+      "2022/23",
+      "Liquefied Petroleum Gas (LPG)",
+      "346",
+      "0.036075487436138046",
+      "4",
+      "0.016666666666666666",
+      "0",
+      "0",
+      "11",
+      "0.09821428571428571"
+    ],
+    [
+      "2022/23",
+      "Coal",
+      "118",
+      "0.012303200917526848",
+      "5",
+      "0.020833333333333332",
+      "2",
+      "0.2222222222222222",
+      "12",
+      "0.10714285714285714"
+    ],
+    [
+      "2022/23",
+      "Other",
+      "72",
+      "0.007507037847982484",
+      "2",
+      "0.008333333333333333",
+      "0",
+      "0",
+      "1",
+      "0.008928571428571428"
+    ],
+    [
+      "2022/23",
+      "Unknown",
+      "30",
+      "0.0031279324366593683",
+      "0",
+      "0",
+      "0",
+      "0",
+      "1",
+      "0.008928571428571428"
+    ],
+    [
+      "2022/23",
+      "Total",
+      "9591",
+      "1",
+      "240",
+      "1",
+      "9",
+      "1",
+      "112",
+      "1"
+    ],
+    [
+      "2023/24",
+      "Gas",
+      "6556",
+      "0.49322900993078544",
+      "48",
+      "0.11214953271028037",
+      "1",
+      "0.1111111111111111",
+      "0",
+      "0"
+    ]
+  ],
+  "BUS: A1.3A": [
+    [
+      "Table A1.3A - Median reported cost (\u00a3) of redemptions paid by technology type and capacity band broken down by financial year, England and Wales, 2022/23 to 2025/26",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [c1] is used to indicate cases where there are between 1 and 4 data points inclusive. This is cost information perceived to be personally or commercially sensitive and so average cost information has been suppressed to avoid disclosure.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [c2] refers to values greater than 4, which have been suppressed where only one other value within the group was suppressed to prevent disclosure.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [x] is used to indicate that there is no data available.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 4] [note 5] [note 6] [note 27]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, Microgeneration Certification Scheme (MCS) Installation Database",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Technology type",
+      "Capacity band (kW)",
+      "2022/23:\nMedian installation \ncost (\u00a3)",
+      "2022/23:\nNumber",
+      "2023/24:\nMedian installation \ncost (\u00a3)",
+      "2023/24:\nNumber",
+      "2024/25:\nMedian installation \ncost (\u00a3)",
+      "2024/25:\nNumber",
+      "2025/26:\nMedian installation \ncost (\u00a3)",
+      "2025/26:\nNumber"
+    ],
+    [
+      "Air-to-Water Heat Pumps",
+      "0kW to 4kW",
+      "11525",
+      "48",
+      "11995",
+      "84",
+      "12390",
+      "187",
+      "11992",
+      "239"
+    ],
+    [
+      "Air-to-Water Heat Pumps",
+      "4kW to 6kW",
+      "11002",
+      "680",
+      "11061",
+      "1272",
+      "9951",
+      "3667",
+      "11494",
+      "4204"
+    ],
+    [
+      "Air-to-Water Heat Pumps",
+      "6kW to 8kW",
+      "11750",
+      "1457",
+      "12615",
+      "2151",
+      "11653",
+      "5642",
+      "12164",
+      "8030"
+    ],
+    [
+      "Air-to-Water Heat Pumps",
+      "8kW to 10kW",
+      "12250",
+      "2298",
+      "12400",
+      "3352",
+      "11930",
+      "6556",
+      "12688",
+      "8505"
+    ],
+    [
+      "Air-to-Water Heat Pumps",
+      "10kW to 12kW",
+      "12985",
+      "1792",
+      "13340",
+      "2145",
+      "13525",
+      "3238",
+      "13948",
+      "3978"
+    ],
+    [
+      "Air-to-Water Heat Pumps",
+      "12kW to 14kW",
+      "13995",
+      "1323",
+      "14878",
+      "1710",
+      "14812",
+      "2403",
+      "15366",
+      "2824"
+    ],
+    [
+      "Air-to-Water Heat Pumps",
+      "14kW to 16kW",
+      "14400",
+      "779",
+      "14631",
+      "1055",
+      "15450",
+      "1295",
+      "15498",
+      "1236"
+    ]
+  ],
+  "BUS: A1.3B": [
+    [
+      "Table A1.3B - Inflation adjusted (real) median reported cost (\u00a3) of redemptions paid by technology type and capacity band broken down by financial year in 2025/26 prices, England and Wales, 2022/23 to 2025/26",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [c1] is used to indicate cases where there are between 1 and 4 data points inclusive. This is cost information perceived to be personally or commercially sensitive and so average cost information has been suppressed to avoid disclosure.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [c2] refers to values greater than 4, which have been suppressed where only one other value within the group was suppressed to prevent disclosure.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [x] is used to indicate that there is no data available.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 4] [note 5] [note 6] [note 27] [note 28]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, Microgeneration Certification Scheme (MCS) Installation Database, Office for National Statistics (ONS) Consumer Price Inflation index",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Technology type",
+      "Capacity band (kW)",
+      "2022/23:\nMedian installation \ncost (\u00a3)",
+      "2022/23:\nNumber",
+      "2023/24:\nMedian installation \ncost (\u00a3)",
+      "2023/24:\nNumber",
+      "2024/25:\nMedian installation \ncost (\u00a3)",
+      "2024/25:\nNumber",
+      "2025/26:\nMedian installation \ncost (\u00a3)",
+      "2025/26:\nNumber"
+    ],
+    [
+      "Air-to-Water Heat Pumps",
+      "0kW to 4kW",
+      "12967.952342487886",
+      "48",
+      "12658.35984848485",
+      "84",
+      "12860.856929955293",
+      "187",
+      "11992",
+      "239"
+    ],
+    [
+      "Air-to-Water Heat Pumps",
+      "4kW to 6kW",
+      "12379.471728594508",
+      "680",
+      "11672.706818181818",
+      "1272",
+      "10329.167660208645",
+      "3667",
+      "11494",
+      "4204"
+    ],
+    [
+      "Air-to-Water Heat Pumps",
+      "6kW to 8kW",
+      "13221.122778675284",
+      "1457",
+      "13312.64772727273",
+      "2151",
+      "12095.848733233981",
+      "5642",
+      "12164",
+      "8030"
+    ],
+    [
+      "Air-to-Water Heat Pumps",
+      "8kW to 10kW",
+      "13783.723747980615",
+      "2298",
+      "13085.757575757578",
+      "3352",
+      "12383.375558867365",
+      "6556",
+      "12688",
+      "8505"
+    ],
+    [
+      "Air-to-Water Heat Pumps",
+      "10kW to 12kW",
+      "14610.747172859454",
+      "1792",
+      "14077.742424242426",
+      "2145",
+      "14038.990312965725",
+      "3238",
+      "13948",
+      "3978"
+    ],
+    [
+      "Air-to-Water Heat Pumps",
+      "12kW to 14kW",
+      "15747.201130856221",
+      "1323",
+      "15700.798484848487",
+      "1710",
+      "15374.900149031298",
+      "2403",
+      "15366",
+      "2824"
+    ],
+    [
+      "Air-to-Water Heat Pumps",
+      "14kW to 16kW",
+      "16202.90791599354",
+      "779",
+      "15440.13863636364",
+      "1055",
+      "16037.146050670643",
+      "1295",
+      "15498",
+      "1236"
+    ]
+  ],
+  "BUS: A1.4": [
+    [
+      "Table A1.4 - Number of redemptions paid by whether the property is domestic or non-domestic broken down by financial year, England and Wales, 2022/23 to 2025/26",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, Microgeneration Certification Scheme (MCS) Installation Database",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Financial year",
+      "Type of property",
+      "Air-to-Water Heat Pumps: \nNumber",
+      "Air-to-Water Heat Pumps: \nPercentage",
+      "Ground Source Heat Pumps:\nNumber",
+      "Ground Source Heat Pumps:\nPercentage",
+      "Shared \nGround \nLoop \nGround \nSource Heat \nPumps:\nNumber",
+      "Shared Ground Loop Ground Source Heat Pumps:\nPercentage",
+      "Biomass boilers:\nNumber",
+      "Biomass boilers:\nPercentage"
+    ],
+    [
+      "2022/23",
+      "Domestic",
+      "9549",
+      "0.9956208945886769",
+      "236",
+      "0.9833333333333333",
+      "9",
+      "1",
+      "112",
+      "1"
+    ],
+    [
+      "2022/23",
+      "Non-domestic",
+      "40",
+      "0.0041705765822124905",
+      "4",
+      "0.016666666666666666",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "2022/23",
+      "Unknown",
+      "2",
+      "0.00020852882911062454",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "2022/23",
+      "Total",
+      "9591",
+      "1",
+      "240",
+      "1",
+      "9",
+      "1",
+      "112",
+      "1"
+    ],
+    [
+      "2023/24",
+      "Domestic",
+      "13218",
+      "0.9944327414986458",
+      "426",
+      "0.9953271028037384",
+      "9",
+      "1",
+      "99",
+      "0.99"
+    ],
+    [
+      "2023/24",
+      "Non-domestic",
+      "74",
+      "0.005567258501354198",
+      "2",
+      "0.004672897196261682",
+      "0",
+      "0",
+      "1",
+      "0.01"
+    ],
+    [
+      "2023/24",
+      "Unknown",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    [
+      "2023/24",
+      "Total",
+      "13292",
+      "1",
+      "428",
+      "1",
+      "9",
+      "1",
+      "100",
+      "1"
+    ],
+    [
+      "2024/25",
+      "Domestic",
+      "24530",
+      "0.9953337390951511",
+      "451",
+      "0.9933920704845814",
+      "6",
+      "1",
+      "95",
+      "0.9895833333333334"
+    ],
+    [
+      "2024/25",
+      "Non-domestic",
+      "115",
+      "0.004666260904848854",
+      "3",
+      "0.006607929515418502",
+      "0",
+      "0",
+      "1",
+      "0.010416666666666666"
+    ],
+    [
+      "2024/25",
+      "Unknown",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0",
+      "0"
+    ]
+  ],
+  "BUS: A1.5": [
+    [
+      "Table A1.5 - Number of redemptions paid by whether the property is in a rural or an urban classification broken down by financial year, England and Wales, 2022/23 to 2025/26",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 9]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, National Statistics Postcode Lookup (ONS)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "NSPL: Office for National Statistics licensed under the Open Government Licence v.3.0",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains OS data \u00a9 Crown copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains Royal Mail data \u00a9 Royal Mail copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Financial year",
+      "Rural/Urban classification",
+      "Air-to-Water Heat Pumps: \nNumber",
+      "Air-to-Water Heat Pumps: \nPercentage",
+      "Ground Source Heat Pumps:\nNumber",
+      "Ground Source Heat Pumps:\nPercentage",
+      "Shared \nGround \nLoop \nGround \nSource Heat \nPumps:\nNumber",
+      "Shared Ground Loop Ground Source Heat Pumps:\nPercentage",
+      "Biomass boilers:\nNumber",
+      "Biomass boilers:\nPercentage"
+    ],
+    [
+      "2022/23",
+      "Rural",
+      "5424",
+      "0.5655301845480137",
+      "197",
+      "0.8208333333333333",
+      "7",
+      "0.7777777777777778",
+      "112",
+      "1"
+    ],
+    [
+      "2022/23",
+      "Urban",
+      "4167",
+      "0.43446981545198626",
+      "43",
+      "0.17916666666666667",
+      "2",
+      "0.2222222222222222",
+      "0",
+      "0"
+    ],
+    [
+      "2022/23",
+      "Total",
+      "9591",
+      "1",
+      "240",
+      "1",
+      "9",
+      "1",
+      "112",
+      "1"
+    ],
+    [
+      "2023/24",
+      "Rural",
+      "7136",
+      "0.5368642792657238",
+      "358",
+      "0.8364485981308412",
+      "8",
+      "0.8888888888888888",
+      "100",
+      "1"
+    ],
+    [
+      "2023/24",
+      "Urban",
+      "6156",
+      "0.4631357207342763",
+      "70",
+      "0.16355140186915887",
+      "1",
+      "0.1111111111111111",
+      "0",
+      "0"
+    ],
+    [
+      "2023/24",
+      "Total",
+      "13292",
+      "1",
+      "428",
+      "1",
+      "9",
+      "1",
+      "100",
+      "1"
+    ],
+    [
+      "2024/25",
+      "Rural",
+      "11374",
+      "0.4615134915804423",
+      "398",
+      "0.8766519823788547",
+      "5",
+      "0.8333333333333334",
+      "96",
+      "1"
+    ]
+  ],
+  "BUS: A1.6": [
+    [
+      "Table A1.6 - Number of redemptions paid by whether the property is on or off the gas grid broken down by financial year, England and Wales, 2022/23 to 2025/26",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 10]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, Xoserve, National Statistics Postcode Lookup (ONS)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "NSPL: Office for National Statistics licensed under the Open Government Licence v.3.0",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains OS data \u00a9 Crown copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains Royal Mail data \u00a9 Royal Mail copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Financial year",
+      "On/off gas grid",
+      "Air-to-Water Heat Pumps: \nNumber",
+      "Air-to-Water Heat Pumps: \nPercentage",
+      "Ground Source Heat Pumps:\nNumber",
+      "Ground Source Heat Pumps:\nPercentage",
+      "Shared \nGround \nLoop \nGround \nSource Heat Pumps:\nNumber",
+      "Shared Ground Loop Ground Source Heat Pumps:\nPercentage",
+      "Biomass boilers:\nNumber",
+      "Biomass boilers:\nPercentage"
+    ],
+    [
+      "2022/23",
+      "On gas grid",
+      "5218",
+      "0.5440517151496195",
+      "56",
+      "0.23333333333333334",
+      "2",
+      "0.2222222222222222",
+      "0",
+      "0"
+    ],
+    [
+      "2022/23",
+      "Off gas grid",
+      "4373",
+      "0.4559482848503806",
+      "184",
+      "0.7666666666666667",
+      "7",
+      "0.7777777777777778",
+      "112",
+      "1"
+    ],
+    [
+      "2022/23",
+      "Total",
+      "9591",
+      "1",
+      "240",
+      "1",
+      "9",
+      "1",
+      "112",
+      "1"
+    ],
+    [
+      "2023/24",
+      "On gas grid",
+      "7533",
+      "0.5667318687932591",
+      "81",
+      "0.18925233644859812",
+      "2",
+      "0.2222222222222222",
+      "0",
+      "0"
+    ],
+    [
+      "2023/24",
+      "Off gas grid",
+      "5759",
+      "0.4332681312067409",
+      "347",
+      "0.8107476635514018",
+      "7",
+      "0.7777777777777778",
+      "100",
+      "1"
+    ],
+    [
+      "2023/24",
+      "Total",
+      "13292",
+      "1",
+      "428",
+      "1",
+      "9",
+      "1",
+      "100",
+      "1"
+    ],
+    [
+      "2024/25",
+      "On gas grid",
+      "16098",
+      "0.653195374315277",
+      "76",
+      "0.16740088105726872",
+      "1",
+      "0.16666666666666666",
+      "0",
+      "0"
+    ]
+  ],
+  "BUS: A1.7": [
+    [
+      "Table A1.7 - Number of redemptions paid by Local Authority broken down by financial year, England and Wales, 2022/23 to 2025/26",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are turned on in the Excel version. To turn off freeze panes, select the 'View ribbon, then 'Freeze Panes' and then 'Unfreeze Panes'. Or use [ALT W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Empty cells indicate geographical hierarchies, with countries and regions in column B, and smaller geographical areas in columns C and D.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [c1] is used to indicate cases where there are between 1 and 4 data points inclusive, which have been suppressed to prevent disclosure.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [c2] refers to values greater than 4, which have been suppressed where only one other value within the group was suppressed to prevent disclosure.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 3] [note 6] [note 11]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, National Statistics Postcode Lookup (ONS)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "NSPL: Office for National Statistics licensed under the Open Government Licence v.3.0",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains OS data \u00a9 Crown copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains Royal Mail data \u00a9 Royal Mail copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Area Codes",
+      "Country or Region",
+      "County or Unitary Authority",
+      "Local Authority Districts",
+      "2022/23:\nHeat pump technologies [note 24]",
+      "2023/24:\nHeat pump technologies [note 24]",
+      "2024/25:\nHeat pump technologies [note 24]",
+      "2025/26:\nHeat pump technologies [note 24]"
+    ],
+    [
+      "K04000001",
+      "England and Wales",
+      null,
+      null,
+      "9840",
+      "13729",
+      "25105",
+      "30910"
+    ],
+    [
+      "E92000001",
+      "England",
+      null,
+      null,
+      "9265",
+      "13034",
+      "24085",
+      "29250"
+    ],
+    [
+      "E12000001",
+      "North East",
+      null,
+      null,
+      "257",
+      "360",
+      "750",
+      "977"
+    ]
+  ],
+  "BUS: A1.8": [
+    [
+      "Table A1.8 - Number of redemptions paid by Parliamentary Constituency broken down by financial year, England and Wales, 2022/23 to 2025/26",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are turned on in the Excel version. To turn off freeze panes, select the 'View ribbon, then 'Freeze Panes' and then 'Unfreeze Panes'. Or use [ALT W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Empty cells indicate geographical hierarchies, with countries and regions in column B, and smaller geographical areas in columns C and D.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [c1] is used to indicate cases where there are between 1 and 4 data points inclusive, which have been suppressed to prevent disclosure.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "The symbol [c2] refers to values greater than 4, which have been suppressed where only one other value within the group was suppressed to prevent disclosure.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 3] [note 6] [note 11] [note 26]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, National Statistics Postcode Lookup (ONS)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "NSPL: Office for National Statistics licensed under the Open Government Licence v.3.0",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains OS data \u00a9 Crown copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains Royal Mail data \u00a9 Royal Mail copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Area Codes",
+      "Country or Region",
+      "Westminster Parliamentary Constituency",
+      "2022/23:\nHeat pump technologies [note 24]",
+      "2023/24:\nHeat pump technologies [note 24]",
+      "2024/25:\nHeat pump technologies [note 24]",
+      "2025/26:\nHeat pump technologies [note 24]"
+    ],
+    [
+      "K04000001",
+      "England and Wales",
+      null,
+      "9840",
+      "13729",
+      "25105",
+      "30910"
+    ],
+    [
+      "E92000001",
+      "England",
+      null,
+      "9265",
+      "13034",
+      "24085",
+      "29250"
+    ],
+    [
+      "E12000001",
+      "North East",
+      null,
+      "257",
+      "360",
+      "750",
+      "977"
+    ]
+  ],
+  "BUS: A1.9": [
+    [
+      "Table A1.9 - Number of redemptions paid by technology type and fuel type displaced and region broken down by financial year, England and Wales, 2022/23 to 2025/26",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are turned on in the Excel version. To turn off freeze panes, select the 'View ribbon, then 'Freeze Panes' and then 'Unfreeze Panes'. Or use [ALT W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 1] [note 2] [note 3] [note 7] [note 8]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Ofgem, National Statistics Postcode Lookup (ONS)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "NSPL: Office for National Statistics licensed under the Open Government Licence v.3.0",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains OS data \u00a9 Crown copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains Royal Mail data \u00a9 Royal Mail copyright and database right 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Financial year",
+      "Area Codes",
+      "Country or Region",
+      "Gas:\nAir-to-Water Heat Pumps",
+      "Gas: \nGround Source Heat Pumps ",
+      "Gas:\nShared Ground Loop Ground Source Heat Pumps",
+      "Gas:\nBiomass boilers",
+      "Oil:\nAir-to-Water Heat Pumps",
+      "Oil: \nGround Source Heat Pumps",
+      "Oil:\nShared Ground Loop Ground Source Heat Pumps"
+    ],
+    [
+      "2022/23",
+      "K04000001",
+      "England and Wales",
+      "4577",
+      "34",
+      "2",
+      "0",
+      "2156",
+      "59",
+      "0"
+    ],
+    [
+      "2022/23",
+      "E92000001",
+      "England",
+      "4446",
+      "33",
+      "2",
+      "0",
+      "1943",
+      "53",
+      "0"
+    ],
+    [
+      "2022/23",
+      "E12000001",
+      "North East",
+      "132",
+      "0",
+      "0",
+      "0",
+      "44",
+      "3",
+      "0"
+    ],
+    [
+      "2022/23",
+      "E12000002",
+      "North West",
+      "412",
+      "3",
+      "0",
+      "0",
+      "88",
+      "6",
+      "0"
+    ],
+    [
+      "2022/23",
+      "E12000003",
+      "Yorkshire and the Humber",
+      "641",
+      "8",
+      "0",
+      "0",
+      "155",
+      "4",
+      "0"
+    ],
+    [
+      "2022/23",
+      "E12000004",
+      "East Midlands",
+      "557",
+      "4",
+      "1",
+      "0",
+      "175",
+      "5",
+      "0"
+    ]
+  ],
+  "BUS: Notes": [
+    [
+      "Notes",
+      null
+    ],
+    [
+      "This worksheet contains one table.",
+      null
+    ],
+    [
+      "Note number",
+      "Note text"
+    ],
+    [
+      "note 1",
+      "Applications that are duplicated are not included."
+    ],
+    [
+      "note 2",
+      "Not all voucher applications will lead to a voucher being issued, for example some will be rejected if they do not pass Ofgem's eligibility checks. Likewise, not all issued vouchers will subsequently be redeemed. Reasons for this may include the property owner changing their mind about the installation or if the voucher expires before the work is complete. Payments made that are subsequently revoked are not included."
+    ],
+    [
+      "note 3",
+      "There are different numbers of eligible properties in each region, which will be a factor that influences the variation in the number of applications received across the different regions. Furthermore, the types of property in a given region will also affect the most common technology types that are installed. For example, being off the gas-grid is a requirement of a grant being paid towards a biomass boiler, so this technology type may be more prevalent in regions with higher numbers of off-grid properties."
+    ],
+    [
+      "note 4",
+      "Installation costs are taken from the MCS certificate, which is a requirement of the BUS. There may be some time lag between a BUS installation taking place and an MCS certificate being submitted, so averages will be based on information on lodged MCS certificates at the point of analysis. Costs are self-reported by MCS installers and include the cost of the system itself, labour costs and VAT. They should also include the grant value, but this may be subject to interpretation by different installers. To account for outliers, the following have been excluded from these figures: costs reported as zero, as well as the highest and lowest 10% of reported costs. Where there are less than 10 underlying data points, the single highest and single lowest values have been excluded."
+    ],
+    [
+      "note 5",
+      "Capacity is taken from the MCS installation certificate, which is a requirement of the BUS. There may be a time lag between a BUS installation taking place and an MCS certificate being submitted, so averages will be based on information on lodged MCS certificates at the point of analysis. Capacity is self-reported by MCS installers. To account for outliers or erroneous values, the following have been excluded from these figures: capacities reported as 0kW or greater than 45kW (which are not eligible with a BUS grant)."
+    ],
+    [
+      "note 6",
+      "Cost information and sub-regional information based on between 1 and 4 redemptions paid (inclusive) is perceived to be personally or commercially sensitive, and is suppressed to prevent disclosure."
+    ],
+    [
+      "note 7",
+      "'None' is specified when the system that is installed using the BUS-supported grant is the property's first heating system. This could be because the property did not previously have a heating system or because the property is an eligible custom-build property."
+    ],
+    [
+      "note 8",
+      "'Other' indicates that the fuel type displaced does not fall into one of the categories provided. This could include those properties that previously used duel fuel systems."
+    ],
+    [
+      "note 9",
+      "The rural/urban definition refers to the ONS 2021 Rural Urban Classification which categories geographies as either rural or urban based on address density, physical settlement form, population size and relative access to major towns and cities (populations of over 75,000). This classification was updated in May 2025. The 2021 classification uses three categories of Urban, Larger rural settlement and Smaller rural settlement. The figures are based on the current rural/urban classification. However, the rural/urban classification of the installation may have been different at the point of installation."
+    ],
+    [
+      "note 10",
+      "The list of off-gas postcodes published by Xoserve is used to determine grid connectivity of installation where this is not provided as part of the application process. Postcodes not on the Xoserve list are assumed to be on-grid."
+    ],
+    [
+      "note 11",
+      "The BUS opened for applications on 23 May 2022. Therefore, figures for May cover the period 23 May 2022 to 31 May 2022, rather than representing a full calendar month of scheme activity."
+    ],
+    [
+      "note 12",
+      "From 23 October 2023, new grant levels came into effect for AWHPs, GSHPs and shared ground loop GSHP voucher applications. AWHP grants were increased from \u00a35,000 to \u00a37,500, whilst grants for GSHPs and shared ground loop GSHPs were increased from \u00a36,000 to \u00a37,500."
+    ]
+  ],
+  "Deployment: Cover Sheet": [
+    [
+      "Heat pump deployment quarterly statistics\nUnited Kingdom: April to June (Q2) 2026\n(official statistics in development)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contact ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Email: EnergyEfficiency.Stats@energysecurity.gov.uk",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Media enquiries: 020 7215 1000",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Publication dates ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "These statistics were published on Thursday 10 September 2026.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "These statistics will next be published in December 2026.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "A publication timetable for all upcoming DESNZ statistics is available online.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Description",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This spreadsheet forms the statistics publication on heat pump installations. This publication is produced by the Department for Energy Security and Net Zero (DESNZ) and has been developed in collaboration with the Welsh Government, Scottish Government and the Department for the Economy Northern Ireland. The data presented show the total volume of heat pumps installed in existing properties (retrofit). The statistics are assembled from the collation of a number of different data sources and we will look to fill gaps in this data over future releases.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Data period",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This workbook contains quarterly data. Figures published cover the period 2018 quarter 1 (Q1; January to March) to 2026 quarter 2 (Q2; April to June).",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Further information ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Some tables refer to notes. When notes are mentioned, the note marker is presented in square brackets. The note text can be found in the Notes tab.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "Deployment: Contents": [
+    [
+      "Contents",
+      null
+    ],
+    [
+      "This release provides statistics on the number of retrofit heat pump installations in the United Kingdom.",
+      null
+    ],
+    [
+      "Worksheet name",
+      "Worksheet content"
+    ],
+    [
+      "Glossary",
+      "Glossary of terms"
+    ],
+    [
+      "Heat pump deployment tables",
+      null
+    ],
+    [
+      "1.1",
+      "Number of retrofit heat pump installations by technology type and quarter, \nUK, Q1 2018 to Q2 2026"
+    ],
+    [
+      "1.2",
+      "Number of retrofit heat pump installations by region and quarter, \nUK, Q1 2018 to Q2 2026"
+    ],
+    [
+      "Notes",
+      null
+    ]
+  ],
+  "Deployment: Glossary": [
+    [
+      "Glossary",
+      null
+    ],
+    [
+      "This worksheet contains one table.",
+      null
+    ],
+    [
+      "Term",
+      "Description"
+    ],
+    [
+      "Air-to-Water Heat Pump (AWHP)",
+      "Air-to-water heat pumps mean a plant which generates heat using a thermodynamic cycle by transferring energy stored in the form of heat in the air and uses that energy to heat air for the purposes of space heating."
+    ],
+    [
+      "Boiler Upgrade Scheme (BUS)",
+      "A policy in England and Wales that came into force on 1 April 2022, and aims to incentivise the installation of low carbon technologies through providing a grant towards the upfront costs. It is targeted towards domestic and non-domestic properties in England and Wales. Self-build properties are eligible."
+    ],
+    [
+      "Domestic Renewable Heat Incentive (DRHI)",
+      "The DRHI (now closed) was a scheme to provide financial incentives to promote the use of renewable heat. Domestic households in Great Britain were eligible. Successful applicants complying with the scheme rules were able to receive quarterly payments over seven years proportionate to the amount of renewable heat their systems were estimated to produce. The scheme began in April 2014 and closed on March 2022. Self-build properties were eligible for the scheme."
+    ],
+    [
+      "Energy Company Obligation (ECO)",
+      "The ECO scheme supports energy efficiency measures in the home of those considered to be in fuel poverty. Domestic households in Great Britain are eligible. The first ECO scheme began in January 2013 and is currently in its latest iteration, ECO4."
+    ],
+    [
+      "Energy Performance Certificate (EPC)",
+      "An Energy Performance Certificate (EPC) tells you how energy efficient a property is. An EPC is required when building a new property and details the heating system for the property. EPC records for new-build properties that record a heat pump as the heating system can be used as a proxy for a heat pump installation."
+    ],
+    [
+      "Green Homes Grant Voucher Scheme (GHGVS)",
+      "The Green Homes Grant voucher scheme provided grants to homeowners and landlords to make energy efficient improvements to homes. The scheme ran between September 2020 and March 2021 for domestic properties in England. It was possible to get funding from both the GHGVS and the DRHI, where any funding received from the GHGVS would subsequently be deducted from DRHI quarterly payments made to the applicant."
+    ],
+    [
+      "Ground/Water Source Heat Pump",
+      "A Ground/Water Source Heat Pump is a plant which generates heat using a thermodynamic cycle by transferring energy stored in the form of heat from the ground, including water in the ground or surface water or both, and uses that energy to heat a liquid. A Ground/Water Source Heat Pump is powered by electricity."
+    ],
+    [
+      "Home Upgrade Grant (HUG) and Local Authority Delivery (LAD)",
+      "The Home Upgrade Grant (HUG) and Local Authority Delivery scheme (LAD) are Government schemes supporting energy efficiency upgrades of low-energy efficiency (EPC of D or lower) low-income (household income below \u00a330k) households across England. LAD phase 1 was launched in August 2020 and HUG phase 1 started in January 2022. It was possible to get funding from both the LAD and the DRHI, where any funding received from the LAD would subsequently be deducted from DRHI quarterly payments made to the applicant."
+    ],
+    [
+      "Microgeneration Certification Scheme (MCS)",
+      "The MCS is a certification scheme that sets and maintains standards for microgeneration installation companies and products. Most heat pump retrofit installations with Government funding are required to have MCS certification and some installations that are fully funded privately will also be MCS certified. MCS is expected to account for most retrofit installations but there are some exceptions. The installations that would not be covered by MCS are heat pumps installed with a thermal output larger than 45kW and the majority of installations in new-build properties."
+    ],
+    [
+      "Non-Domestic Renewable Heat Incentive (NDRHI)",
+      "The NDRHI (now closed) was a scheme to provide financial incentives to increase uptake of renewable heat. Industrial, commercial, public sector and not-for-profit organisations were eligible. Successful applicants complying with the scheme rules were able to receive regular payments over twenty years proportionate to the amount of renewable heat their systems produced, or the amount of eligible biomethane injected into the gas grid. The scheme began in November 2011 and closed on March 2021 for most applicants."
+    ],
+    [
+      "Social Housing Decarbonisation Fund",
+      "The Social Housing Decarbonisation Fund is a Government scheme to improve the energy performance of social housing in England. SHDF Wave 1 was launched in August 2021, successful SHDF Wave 2.1 projects were announced in March 2023, and SHDF Wave 2.2 grant funding was available from April 2024. It was possible to get funding from both the SHDF and the DRHI, where any funding received from the SHDF would subsequently be deducted from DRHI quarterly payments made to the applicant."
+    ],
+    [
+      "Warm Homes: Local Grant",
+      "The Government has published its Warm Homes Plan to upgrade up to 5 million homes by 2030. The Warm Homes: Local Grant (WH:LG) is part of this plan. It is a government-funded scheme delivered by Local Authorities that provides grants for energy performance upgrades and low carbon heating to low-income households living in the worst quality, privately owned homes in England to achieve energy bill savings and carbon savings. These upgrades are open to all fuel types, including on-gas-grid households (those heated by mains gas), and off-gas-grid households (those heated by electricity, oil, coal, or liquid petroleum gas)."
+    ]
+  ],
+  "Deployment: Table 1.1": [
+    [
+      "Table 1.1 - Number of retrofit heat pump installations by technology type and quarter, UK, Q1 2018 to Q2 2026",
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are turned on in the Excel version. To turn off freeze panes, select the 'View ribbon, then 'Freeze Panes' and then 'Unfreeze Panes'. Or use [ALT W, F].",
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 1] [note 2] [note 3]",
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Microgeneration Certification Scheme (MCS) Installation Database",
+      null,
+      null,
+      null
+    ],
+    [
+      "Installation quarter [note 4]",
+      "Air-to-water heat pump installations",
+      " Ground/water source heat pump installations",
+      "Total heat \npump installations"
+    ],
+    [
+      "2018 Q1: January to March",
+      "1347",
+      "171",
+      "1518"
+    ],
+    [
+      "2018 Q2: April to June",
+      "1391",
+      "137",
+      "1528"
+    ],
+    [
+      "2018 Q3: July to September",
+      "1775",
+      "151",
+      "1926"
+    ],
+    [
+      "2018 Q4: October to December",
+      "2216",
+      "218",
+      "2434"
+    ],
+    [
+      "2019 Q1: January to March",
+      "2164",
+      "144",
+      "2308"
+    ],
+    [
+      "2019 Q2: April to June",
+      "2127",
+      "187",
+      "2314"
+    ],
+    [
+      "2019 Q3: July to September",
+      "2386",
+      "195",
+      "2581"
+    ],
+    [
+      "2019 Q4: October to December",
+      "2875",
+      "280",
+      "3155"
+    ],
+    [
+      "2020 Q1: January to March",
+      "2852",
+      "250",
+      "3102"
+    ]
+  ],
+  "Deployment: Table 1.2": [
+    [
+      "Table 1.2 - Number of retrofit heat pump installations by region and quarter, UK, Q1 2018 to Q2 2026",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This worksheet contains one table. Some cells refer to notes, which can be found on the 'Notes' worksheet.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are turned on in the Excel version. To turn off freeze panes, select the 'View ribbon, then 'Freeze Panes' and then 'Unfreeze Panes'. Or use [ALT W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "[note 1] [note 2] [note 3] [note 6]",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Source: Microgeneration Certification Scheme (MCS) Installation Database",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "NSPL: Office for National Statistics licensed under the Open Government Licence v.3.0",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains OS data \u00a9 Crown copyright and database right 2020",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Contains Royal Mail data \u00a9 Royal Mail copyright and database right 2020",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Area Codes and Country or Region",
+      "K02000001",
+      "K04000001",
+      "E92000001",
+      "E12000001",
+      "E12000002",
+      "E12000003",
+      "E12000004",
+      "E12000005",
+      "E12000006"
+    ],
+    [
+      "Installation quarter [note 4]",
+      "\nUnited Kingdom",
+      "England and \nWales",
+      "England",
+      "North East",
+      "\nNorth West",
+      "Yorkshire and \nThe Humber",
+      "\nEast Midlands",
+      "West Midlands",
+      "East"
+    ],
+    [
+      "2018 Q1: January to March",
+      "1518",
+      "1215",
+      "1116",
+      "21",
+      "41",
+      "120",
+      "252",
+      "86",
+      "244"
+    ],
+    [
+      "2018 Q2: April to June",
+      "1528",
+      "1240",
+      "1124",
+      "38",
+      "55",
+      "124",
+      "269",
+      "65",
+      "257"
+    ],
+    [
+      "2018 Q3: July to September",
+      "1926",
+      "1416",
+      "1311",
+      "27",
+      "43",
+      "145",
+      "344",
+      "64",
+      "336"
+    ],
+    [
+      "2018 Q4: October to December",
+      "2434",
+      "1886",
+      "1752",
+      "60",
+      "66",
+      "175",
+      "450",
+      "88",
+      "334"
+    ],
+    [
+      "2019 Q1: January to March",
+      "2308",
+      "1877",
+      "1750",
+      "134",
+      "59",
+      "177",
+      "376",
+      "106",
+      "380"
+    ]
+  ],
+  "Deployment: Notes": [
+    [
+      "Notes",
+      null
+    ],
+    [
+      "This worksheet contains one table.",
+      null
+    ],
+    [
+      "Note number",
+      "Note text"
+    ],
+    [
+      "note 1",
+      "This is our current best estimate of the total number of retrofit heat pumps installed in the UK which is taken from MCS records of certified installations. It excludes any retrofit installations that are not MCS certified, which are thought to be small in number, as well as all installations in new dwellings which are currently published separately by MHCLG for England only."
+    ],
+    [
+      "note 2",
+      "All hydronic heat pumps are in scope of these statistics. Heat pumps up to a capacity of 45kW are in scope. In the majority of cases, one installation represents one heat pump in one property. However, there will be a small number of cases where: a) a single installation of a heat pump provides communal heating to multiple properties, or b) a single installation includes more than one heat pump unit being installed as part of a cascade system. The installations predominantly represent installations in domestic properties, but a small amount of installations in non-domestic properties may be included where they cannot be directly identified in the data."
+    ],
+    [
+      "note 3",
+      "A small proportion of new-build installations in Scotland and Northern Ireland pre-2023 Q4 may have incorrectly been classified as retrofit, but will be reassigned in future when further data is acquired and enables these to be identified."
+    ],
+    [
+      "note 4",
+      "Data is recorded against the relevant quarter by date of installation, as recorded on the MCS certificate."
+    ],
+    [
+      "note 5",
+      "In 2022 Q1 there was a large increase in applications which coincided with the closure of the Domestic Renewable Heat Incentive scheme and just prior to the launch of the new Boiler Upgrade Scheme."
+    ],
+    [
+      "note 6",
+      "There are different numbers of properties in each area, which will be a factor that influences the variation in the number of installations in the different regions."
+    ],
+    [
+      "note 7",
+      "The 'unknown' category includes heat pump installations that could not be assigned to a region because the postcode was either missing or could not be matched to the Office of National Statistics (ONS) National Statistics Postcode Lookup (NSPL)."
+    ]
+  ],
+  "Gas: Cover sheet": [
+    [
+      "Subnational estimates of domestic properties not on the gas grid, Great Britain, 2015 - 2024"
+    ],
+    [
+      "This workbook presents Official Statistics on the number and proportion of domestic properties not connected to the gas grid by country/region and local authority in Great Britain."
+    ],
+    [
+      "Contents"
+    ],
+    [
+      "Following this Cover sheet this workbook contains estimates of the number and proportion of domestic properties not connected to the gas grid which are presented in the form of one sheet for each of the years 2015 - 2024."
+    ],
+    [
+      "Publication dates"
+    ],
+    [
+      "Publication date: 18 December 2025"
+    ],
+    [
+      "Next update: December 2026"
+    ],
+    [
+      "Revisions"
+    ],
+    [
+      "The statistics presented in this workbook are revised each year to reflect updates made to the number of properties and number of domestic gas meters."
+    ],
+    [
+      "Methodology"
+    ],
+    [
+      "This dataset contains estimates of the number and proportion of domestic properties without a gas meter in Great Britain."
+    ],
+    [
+      "The number of domestic gas meters is derived from adding together the number of consuming domestic meters and the number of non-consuming domestic meters from the subnational gas consumption statistics."
+    ],
+    [
+      "There is no definitive source for the number of households not on the gas grid, so these estimates are calculated by subtracting the number of domestic gas meters (including non-consuming domestic meters) from the estimated number of domestic properties."
+    ],
+    [
+      "Figures on the number of domestic properties in England and Wales are obtained from the Valuation Office Agency (VOA):"
+    ],
+    [
+      "England and Wales: Council Tax: stock of properties (Valuation Office Agency)"
+    ]
+  ],
+  "Gas: 2015": [
+    [
+      "Subnational estimates of domestic properties not on the gas grid, Great Britain, 2015",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This table shows the number of domestic gas meters, number of households, and the estimated number and percentage of households not connected to the gas network by local authority.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Country/region totals are shown where the local authority is specified as \"All local authorities\". ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are active on this sheet. To turn off freeze panes select the 'View' ribbon then 'Freeze Panes' then 'Unfreeze Panes' or use [Alt W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Code",
+      "Country or region",
+      "Local authority",
+      "Number of \ndomestic \nproperties\n(thousands)",
+      "Number of \ndomestic \ngas meters\n(thousands)",
+      "Estimated number \nof properties not \non the gas grid\n(thousands)",
+      "Estimated percentage\nof properties not \non the gas grid\n\n"
+    ],
+    [
+      "K03000001",
+      "Great Britain",
+      "All local authorities",
+      "27526.242",
+      "23344.816",
+      "4181.426",
+      "0.1519"
+    ],
+    [
+      "K04000001",
+      "England and Wales",
+      "All local authorities",
+      "24968.66",
+      "21334.461",
+      "3634.199",
+      "0.1456"
+    ],
+    [
+      "E92000001",
+      "England",
+      "All local authorities",
+      "23560.44",
+      "20200.268",
+      "3360.172",
+      "0.1426"
+    ],
+    [
+      "E12000001",
+      "North East",
+      "All local authorities",
+      "1201.03",
+      "1103.846",
+      "97.184",
+      "0.0809"
+    ],
+    [
+      "E12000002",
+      "North West",
+      "All local authorities",
+      "3203.86",
+      "2907.048",
+      "296.812",
+      "0.0926"
+    ],
+    [
+      "E12000003",
+      "Yorkshire and The Humber",
+      "All local authorities",
+      "2364.74",
+      "2125.818",
+      "238.922",
+      "0.101"
+    ],
+    [
+      "E12000004",
+      "East Midlands",
+      "All local authorities",
+      "2023.45",
+      "1777.923",
+      "245.527",
+      "0.1213"
+    ],
+    [
+      "E12000005",
+      "West Midlands",
+      "All local authorities",
+      "2422.95",
+      "2116.564",
+      "306.386",
+      "0.1265"
+    ],
+    [
+      "E12000006",
+      "East",
+      "All local authorities",
+      "2601.92",
+      "2076.046",
+      "525.874",
+      "0.2021"
+    ],
+    [
+      "E12000007",
+      "London",
+      "All local authorities",
+      "3487.8",
+      "3015.889",
+      "471.911",
+      "0.1353"
+    ]
+  ],
+  "Gas: 2016": [
+    [
+      "Subnational estimates of domestic properties not on the gas grid, Great Britain, 2016",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This table shows the number of domestic gas meters, number of households, and the estimated number and percentage of households not connected to the gas network by local authority.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Country/region totals are shown where the local authority is specified as \"All local authorities\". ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are active on this sheet. To turn off freeze panes select the 'View' ribbon then 'Freeze Panes' then 'Unfreeze Panes' or use [Alt W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Code",
+      "Country or region",
+      "Local authority",
+      "Number of \ndomestic \nproperties\n(thousands)",
+      "Number of \ndomestic \ngas meters\n(thousands)",
+      "Estimated number \nof properties not \non the gas grid\n(thousands)",
+      "Estimated percentage\nof properties not \non the gas grid\n\n"
+    ],
+    [
+      "K03000001",
+      "Great Britain",
+      "All local authorities",
+      "27758.677",
+      "23659.71",
+      "4098.967",
+      "0.1477"
+    ],
+    [
+      "K04000001",
+      "England and Wales",
+      "All local authorities",
+      "25183.01",
+      "21606.677",
+      "3576.333",
+      "0.142"
+    ],
+    [
+      "E92000001",
+      "England",
+      "All local authorities",
+      "23766.48",
+      "20457.027",
+      "3309.453",
+      "0.1392"
+    ],
+    [
+      "E12000001",
+      "North East",
+      "All local authorities",
+      "1209.95",
+      "1118.322",
+      "91.628",
+      "0.0757"
+    ],
+    [
+      "E12000002",
+      "North West",
+      "All local authorities",
+      "3225.71",
+      "2937.665",
+      "288.045",
+      "0.0893"
+    ],
+    [
+      "E12000003",
+      "Yorkshire and The Humber",
+      "All local authorities",
+      "2380.66",
+      "2146.938",
+      "233.722",
+      "0.0982"
+    ],
+    [
+      "E12000004",
+      "East Midlands",
+      "All local authorities",
+      "2041.35",
+      "1806.187",
+      "235.163",
+      "0.1152"
+    ],
+    [
+      "E12000005",
+      "West Midlands",
+      "All local authorities",
+      "2441.47",
+      "2142.821",
+      "298.649",
+      "0.1223"
+    ],
+    [
+      "E12000006",
+      "East",
+      "All local authorities",
+      "2625.08",
+      "2108.082",
+      "516.998",
+      "0.1969"
+    ],
+    [
+      "E12000007",
+      "London",
+      "All local authorities",
+      "3528.33",
+      "3027.88",
+      "500.45",
+      "0.1418"
+    ]
+  ],
+  "Gas: 2017": [
+    [
+      "Subnational estimates of domestic properties not on the gas grid, Great Britain, 2017",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This table shows the number of domestic gas meters, number of households, and the estimated number and percentage of households not connected to the gas network by local authority.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Country/region totals are shown where the local authority is specified as \"All local authorities\". ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are active on this sheet. To turn off freeze panes select the 'View' ribbon then 'Freeze Panes' then 'Unfreeze Panes' or use [Alt W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Code",
+      "Country or region",
+      "Local authority",
+      "Number of \ndomestic \nproperties\n(thousands)",
+      "Number of \ndomestic \ngas meters\n(thousands)",
+      "Estimated number \nof properties not \non the gas grid\n(thousands)",
+      "Estimated percentage\nof properties not \non the gas grid\n\n"
+    ],
+    [
+      "K03000001",
+      "Great Britain",
+      "All local authorities",
+      "28001.971",
+      "23860.674",
+      "4141.297",
+      "0.1479"
+    ],
+    [
+      "K04000001",
+      "England and Wales",
+      "All local authorities",
+      "25406.94",
+      "21784.503",
+      "3622.437",
+      "0.1426"
+    ],
+    [
+      "E92000001",
+      "England",
+      "All local authorities",
+      "23982.72",
+      "20625.971",
+      "3356.749",
+      "0.14"
+    ],
+    [
+      "E12000001",
+      "North East",
+      "All local authorities",
+      "1219.08",
+      "1128.852",
+      "90.228",
+      "0.074"
+    ],
+    [
+      "E12000002",
+      "North West",
+      "All local authorities",
+      "3249.36",
+      "2957.808",
+      "291.552",
+      "0.0897"
+    ],
+    [
+      "E12000003",
+      "Yorkshire and The Humber",
+      "All local authorities",
+      "2399.16",
+      "2161.793",
+      "237.367",
+      "0.0989"
+    ],
+    [
+      "E12000004",
+      "East Midlands",
+      "All local authorities",
+      "2061.68",
+      "1826.127",
+      "235.553",
+      "0.1143"
+    ],
+    [
+      "E12000005",
+      "West Midlands",
+      "All local authorities",
+      "2462.07",
+      "2161.671",
+      "300.399",
+      "0.122"
+    ],
+    [
+      "E12000006",
+      "East",
+      "All local authorities",
+      "2650.84",
+      "2129.572",
+      "521.268",
+      "0.1966"
+    ],
+    [
+      "E12000007",
+      "London",
+      "All local authorities",
+      "3565.34",
+      "3034.546",
+      "530.794",
+      "0.1489"
+    ]
+  ],
+  "Gas: 2018": [
+    [
+      "Subnational estimates of domestic properties not on the gas grid, Great Britain, 2018",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This table shows the number of domestic gas meters, number of households, and the estimated number and percentage of households not connected to the gas network by local authority.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Country/region totals are shown where the local authority is specified as \"All local authorities\". ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are active on this sheet. To turn off freeze panes select the 'View' ribbon then 'Freeze Panes' then 'Unfreeze Panes' or use [Alt W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Code",
+      "Country or region",
+      "Local authority",
+      "Number of \ndomestic \nproperties\n(thousands)",
+      "Number of \ndomestic \ngas meters\n(thousands)",
+      "Estimated number \nof properties not \non the gas grid\n(thousands)",
+      "Estimated percentage\nof properties not \non the gas grid\n\n"
+    ],
+    [
+      "K03000001",
+      "Great Britain",
+      "All local authorities",
+      "28250.915",
+      "24115.553",
+      "4135.362",
+      "0.1464"
+    ],
+    [
+      "K04000001",
+      "England and Wales",
+      "All local authorities",
+      "25635.73",
+      "22015.751",
+      "3619.979",
+      "0.1412"
+    ],
+    [
+      "E92000001",
+      "England",
+      "All local authorities",
+      "24203.07",
+      "20845.962",
+      "3357.108",
+      "0.1387"
+    ],
+    [
+      "E12000001",
+      "North East",
+      "All local authorities",
+      "1229.33",
+      "1138.855",
+      "90.475",
+      "0.0736"
+    ],
+    [
+      "E12000002",
+      "North West",
+      "All local authorities",
+      "3272.71",
+      "2988.373",
+      "284.337",
+      "0.0869"
+    ],
+    [
+      "E12000003",
+      "Yorkshire and The Humber",
+      "All local authorities",
+      "2418.52",
+      "2181.632",
+      "236.888",
+      "0.0979"
+    ],
+    [
+      "E12000004",
+      "East Midlands",
+      "All local authorities",
+      "2083.81",
+      "1853.915",
+      "229.895",
+      "0.1103"
+    ],
+    [
+      "E12000005",
+      "West Midlands",
+      "All local authorities",
+      "2483.57",
+      "2185.287",
+      "298.283",
+      "0.1201"
+    ],
+    [
+      "E12000006",
+      "East",
+      "All local authorities",
+      "2674.39",
+      "2162.471",
+      "511.919",
+      "0.1914"
+    ],
+    [
+      "E12000007",
+      "London",
+      "All local authorities",
+      "3602.73",
+      "3037.914",
+      "564.816",
+      "0.1568"
+    ]
+  ],
+  "Gas: 2019": [
+    [
+      "Subnational estimates of domestic properties not on the gas grid, Great Britain, 2019",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This table shows the number of domestic gas meters, number of households, and the estimated number and percentage of households not connected to the gas network by local authority.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Country/region totals are shown where the local authority is specified as \"All local authorities\". ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are active on this sheet. To turn off freeze panes select the 'View' ribbon then 'Freeze Panes' then 'Unfreeze Panes' or use [Alt W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Code",
+      "Country or region",
+      "Local authority",
+      "Number of \ndomestic \nproperties\n(thousands)",
+      "Number of \ndomestic \ngas meters\n(thousands)",
+      "Estimated number \nof properties not \non the gas grid\n(thousands)",
+      "Estimated percentage\nof properties not \non the gas grid\n\n"
+    ],
+    [
+      "K03000001",
+      "Great Britain",
+      "All local authorities",
+      "28513.661",
+      "24300.318",
+      "4213.343",
+      "0.1478"
+    ],
+    [
+      "K04000001",
+      "England and Wales",
+      "All local authorities",
+      "25876.79",
+      "22181.08",
+      "3695.71",
+      "0.1428"
+    ],
+    [
+      "E92000001",
+      "England",
+      "All local authorities",
+      "24435.87",
+      "21002.602",
+      "3433.268",
+      "0.1405"
+    ],
+    [
+      "E12000001",
+      "North East",
+      "All local authorities",
+      "1239.79",
+      "1146.497",
+      "93.293",
+      "0.0752"
+    ],
+    [
+      "E12000002",
+      "North West",
+      "All local authorities",
+      "3300.94",
+      "3008.744",
+      "292.196",
+      "0.0885"
+    ],
+    [
+      "E12000003",
+      "Yorkshire and The Humber",
+      "All local authorities",
+      "2437.89",
+      "2197.29",
+      "240.6",
+      "0.0987"
+    ],
+    [
+      "E12000004",
+      "East Midlands",
+      "All local authorities",
+      "2105.05",
+      "1869.852",
+      "235.198",
+      "0.1117"
+    ],
+    [
+      "E12000005",
+      "West Midlands",
+      "All local authorities",
+      "2505.57",
+      "2201.914",
+      "303.656",
+      "0.1212"
+    ],
+    [
+      "E12000006",
+      "East",
+      "All local authorities",
+      "2701.63",
+      "2183.399",
+      "518.231",
+      "0.1918"
+    ],
+    [
+      "E12000007",
+      "London",
+      "All local authorities",
+      "3642.64",
+      "3045.167",
+      "597.473",
+      "0.164"
+    ]
+  ],
+  "Gas: 2020": [
+    [
+      "Subnational estimates of domestic properties not on the gas grid, Great Britain, 2020",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This table shows the number of domestic gas meters, number of households, and the estimated number and percentage of households not connected to the gas network by local authority.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Country/region totals are shown where the local authority is specified as \"All local authorities\". ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are active on this sheet. To turn off freeze panes select the 'View' ribbon then 'Freeze Panes' then 'Unfreeze Panes' or use [Alt W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Code",
+      "Country or region",
+      "Local authority",
+      "Number of \ndomestic \nproperties\n(thousands)",
+      "Number of \ndomestic \ngas meters\n(thousands)",
+      "Estimated number \nof properties not \non the gas grid\n(thousands)",
+      "Estimated percentage\nof properties not \non the gas grid\n\n"
+    ],
+    [
+      "K03000001",
+      "Great Britain",
+      "All local authorities",
+      "28782.715",
+      "24446.84",
+      "4335.875",
+      "0.1506"
+    ],
+    [
+      "K04000001",
+      "England and Wales",
+      "All local authorities",
+      "26128.99",
+      "22304.619",
+      "3824.371",
+      "0.1464"
+    ],
+    [
+      "E92000001",
+      "England",
+      "All local authorities",
+      "24679.59",
+      "21120.388",
+      "3559.202",
+      "0.1442"
+    ],
+    [
+      "E12000001",
+      "North East",
+      "All local authorities",
+      "1248.79",
+      "1155.114",
+      "93.676",
+      "0.075"
+    ],
+    [
+      "E12000002",
+      "North West",
+      "All local authorities",
+      "3330.09",
+      "3022.216",
+      "307.874",
+      "0.0925"
+    ],
+    [
+      "E12000003",
+      "Yorkshire and The Humber",
+      "All local authorities",
+      "2456.05",
+      "2210.385",
+      "245.665",
+      "0.1"
+    ],
+    [
+      "E12000004",
+      "East Midlands",
+      "All local authorities",
+      "2127.25",
+      "1882.952",
+      "244.298",
+      "0.1148"
+    ],
+    [
+      "E12000005",
+      "West Midlands",
+      "All local authorities",
+      "2532.65",
+      "2216.437",
+      "316.213",
+      "0.1249"
+    ],
+    [
+      "E12000006",
+      "East",
+      "All local authorities",
+      "2731.95",
+      "2196.787",
+      "535.163",
+      "0.1959"
+    ],
+    [
+      "E12000007",
+      "London",
+      "All local authorities",
+      "3679.91",
+      "3050.965",
+      "628.945",
+      "0.1709"
+    ]
+  ],
+  "Gas: 2021": [
+    [
+      "Subnational estimates of domestic properties not on the gas grid, Great Britain, 2021",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This table shows the number of domestic gas meters, number of households, and the estimated number and percentage of households not connected to the gas network by local authority.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Country/region totals are shown where the local authority is specified as \"All local authorities\". ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are active on this sheet. To turn off freeze panes select the 'View' ribbon then 'Freeze Panes' then 'Unfreeze Panes' or use [Alt W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Code",
+      "Country or region",
+      "Local authority",
+      "Number of \ndomestic \nproperties\n(thousands)",
+      "Number of \ndomestic \ngas meters\n(thousands)",
+      "Estimated number \nof properties not \non the gas grid\n(thousands)",
+      "Estimated percentage\nof properties not \non the gas grid\n\n"
+    ],
+    [
+      "K03000001",
+      "Great Britain",
+      "All local authorities",
+      "29011.413",
+      "24618.334",
+      "4393.079",
+      "0.1514"
+    ],
+    [
+      "K04000001",
+      "England and Wales",
+      "All local authorities",
+      "26336.42",
+      "22455.498",
+      "3880.922",
+      "0.1474"
+    ],
+    [
+      "E92000001",
+      "England",
+      "All local authorities",
+      "24881.44",
+      "21265.526",
+      "3615.914",
+      "0.1453"
+    ],
+    [
+      "E12000001",
+      "North East",
+      "All local authorities",
+      "1255.06",
+      "1163.126",
+      "91.934",
+      "0.0733"
+    ],
+    [
+      "E12000002",
+      "North West",
+      "All local authorities",
+      "3355.05",
+      "3040.839",
+      "314.211",
+      "0.0937"
+    ],
+    [
+      "E12000003",
+      "Yorkshire and The Humber",
+      "All local authorities",
+      "2474.16",
+      "2224.769",
+      "249.391",
+      "0.1008"
+    ],
+    [
+      "E12000004",
+      "East Midlands",
+      "All local authorities",
+      "2146.13",
+      "1902.485",
+      "243.645",
+      "0.1135"
+    ],
+    [
+      "E12000005",
+      "West Midlands",
+      "All local authorities",
+      "2552.85",
+      "2233.085",
+      "319.765",
+      "0.1253"
+    ],
+    [
+      "E12000006",
+      "East",
+      "All local authorities",
+      "2757.14",
+      "2217.745",
+      "539.395",
+      "0.1956"
+    ],
+    [
+      "E12000007",
+      "London",
+      "All local authorities",
+      "3713.46",
+      "3051.971",
+      "661.489",
+      "0.1781"
+    ]
+  ],
+  "Gas: 2022": [
+    [
+      "Subnational estimates of domestic properties not on the gas grid, Great Britain, 2022",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This table shows the number of domestic gas meters, number of households, and the estimated number and percentage of households not connected to the gas network by local authority.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Country/region totals are shown where the local authority is specified as \"All local authorities\". ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are active on this sheet. To turn off freeze panes select the 'View' ribbon then 'Freeze Panes' then 'Unfreeze Panes' or use [Alt W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Code",
+      "Country or region",
+      "Local authority",
+      "Number of \ndomestic \nproperties\n(thousands)",
+      "Number of \ndomestic \ngas meters\n(thousands)",
+      "Estimated number \nof properties not \non the gas grid\n(thousands)",
+      "Estimated percentage\nof properties not \non the gas grid\n\n"
+    ],
+    [
+      "K03000001",
+      "Great Britain",
+      "All local authorities",
+      "29276.189",
+      "24799.494",
+      "4476.695",
+      "0.1529"
+    ],
+    [
+      "K04000001",
+      "England and Wales",
+      "All local authorities",
+      "26576.81",
+      "22616.646",
+      "3960.164",
+      "0.149"
+    ],
+    [
+      "E92000001",
+      "England",
+      "All local authorities",
+      "25114.15",
+      "21420.595",
+      "3693.555",
+      "0.1471"
+    ],
+    [
+      "E12000001",
+      "North East",
+      "All local authorities",
+      "1263.27",
+      "1172.176",
+      "91.094",
+      "0.0721"
+    ],
+    [
+      "E12000002",
+      "North West",
+      "All local authorities",
+      "3386.28",
+      "3060.959",
+      "325.321",
+      "0.0961"
+    ],
+    [
+      "E12000003",
+      "Yorkshire and The Humber",
+      "All local authorities",
+      "2494.02",
+      "2240.262",
+      "253.758",
+      "0.1017"
+    ],
+    [
+      "E12000004",
+      "East Midlands",
+      "All local authorities",
+      "2168.15",
+      "1923.649",
+      "244.501",
+      "0.1128"
+    ],
+    [
+      "E12000005",
+      "West Midlands",
+      "All local authorities",
+      "2575.08",
+      "2250.197",
+      "324.883",
+      "0.1262"
+    ],
+    [
+      "E12000006",
+      "East",
+      "All local authorities",
+      "2784.18",
+      "2241.536",
+      "542.644",
+      "0.1949"
+    ],
+    [
+      "E12000007",
+      "London",
+      "All local authorities",
+      "3749.97",
+      "3054.744",
+      "695.226",
+      "0.1854"
+    ]
+  ],
+  "Gas: 2023": [
+    [
+      "Subnational estimates of domestic properties not on the gas grid, Great Britain, 2023",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This table shows the number of domestic gas meters, number of households, and the estimated number and percentage of households not connected to the gas network by local authority.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Country/region totals are shown where the local authority is specified as \"All local authorities\". ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are active on this sheet. To turn off freeze panes select the 'View' ribbon then 'Freeze Panes' then 'Unfreeze Panes' or use [Alt W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Code",
+      "Country or region",
+      "Local authority",
+      "Number of \ndomestic \nproperties\n(thousands)",
+      "Number of \ndomestic \ngas meters\n(thousands)",
+      "Estimated number \nof properties not \non the gas grid\n(thousands)",
+      "Estimated percentage\nof properties not \non the gas grid\n\n"
+    ],
+    [
+      "K03000001",
+      "Great Britain",
+      "All local authorities",
+      "29545.345",
+      "24905.898",
+      "4639.447",
+      "0.157"
+    ],
+    [
+      "K04000001",
+      "England and Wales",
+      "All local authorities",
+      "26824.12",
+      "22711.156",
+      "4112.964",
+      "0.1533"
+    ],
+    [
+      "E92000001",
+      "England",
+      "All local authorities",
+      "25353.53",
+      "21510.701",
+      "3842.829",
+      "0.1516"
+    ],
+    [
+      "E12000001",
+      "North East",
+      "All local authorities",
+      "1273.05",
+      "1178.865",
+      "94.185",
+      "0.074"
+    ],
+    [
+      "E12000002",
+      "North West",
+      "All local authorities",
+      "3414.86",
+      "3073.284",
+      "341.576",
+      "0.1"
+    ],
+    [
+      "E12000003",
+      "Yorkshire and The Humber",
+      "All local authorities",
+      "2512.12",
+      "2249.502",
+      "262.618",
+      "0.1045"
+    ],
+    [
+      "E12000004",
+      "East Midlands",
+      "All local authorities",
+      "2191.97",
+      "1937.919",
+      "254.051",
+      "0.1159"
+    ],
+    [
+      "E12000005",
+      "West Midlands",
+      "All local authorities",
+      "2599.82",
+      "2259.883",
+      "339.937",
+      "0.1308"
+    ],
+    [
+      "E12000006",
+      "East",
+      "All local authorities",
+      "2814.03",
+      "2254.938",
+      "559.092",
+      "0.1987"
+    ],
+    [
+      "E12000007",
+      "London",
+      "All local authorities",
+      "3786.55",
+      "3053.988",
+      "732.562",
+      "0.1935"
+    ]
+  ],
+  "Gas: 2024": [
+    [
+      "Subnational estimates of domestic properties not on the gas grid, Great Britain, 2024",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "This table shows the number of domestic gas meters, number of households, and the estimated number and percentage of households not connected to the gas network by local authority.",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Country/region totals are shown where the local authority is specified as \"All local authorities\". ",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Freeze panes are active on this sheet. To turn off freeze panes select the 'View' ribbon then 'Freeze Panes' then 'Unfreeze Panes' or use [Alt W, F].",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Code",
+      "Country or region",
+      "Local authority",
+      "Number of \ndomestic \nproperties\n(thousands)",
+      "Number of \ndomestic \ngas meters\n(thousands)",
+      "Estimated number \nof properties not \non the gas grid\n(thousands)",
+      "Estimated percentage\nof properties not \non the gas grid\n\n"
+    ],
+    [
+      "K03000001",
+      "Great Britain",
+      "All local authorities",
+      "29790.503",
+      "25009.793",
+      "4780.71",
+      "0.1605"
+    ],
+    [
+      "K04000001",
+      "England and Wales",
+      "All local authorities",
+      "27049.53",
+      "22803.497",
+      "4246.033",
+      "0.157"
+    ],
+    [
+      "E92000001",
+      "England",
+      "All local authorities",
+      "25571.4",
+      "21594.158",
+      "3977.242",
+      "0.1555"
+    ],
+    [
+      "E12000001",
+      "North East",
+      "All local authorities",
+      "1280.92",
+      "1185.131",
+      "95.789",
+      "0.0748"
+    ],
+    [
+      "E12000002",
+      "North West",
+      "All local authorities",
+      "3442.74",
+      "3084.069",
+      "358.671",
+      "0.1042"
+    ],
+    [
+      "E12000003",
+      "Yorkshire and The Humber",
+      "All local authorities",
+      "2531.64",
+      "2258.734",
+      "272.906",
+      "0.1078"
+    ],
+    [
+      "E12000004",
+      "East Midlands",
+      "All local authorities",
+      "2214.62",
+      "1952.152",
+      "262.468",
+      "0.1185"
+    ],
+    [
+      "E12000005",
+      "West Midlands",
+      "All local authorities",
+      "2619.88",
+      "2268.803",
+      "351.077",
+      "0.134"
+    ],
+    [
+      "E12000006",
+      "East",
+      "All local authorities",
+      "2842.61",
+      "2266.65",
+      "575.96",
+      "0.2026"
+    ],
+    [
+      "E12000007",
+      "London",
+      "All local authorities",
+      "3815.36",
+      "3053.087",
+      "762.273",
+      "0.1998"
+    ]
+  ]
+}

@@ -1,0 +1,48 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Original source downloads stay on the local machine
+/data/raw/
+
+# Local settings, credentials and logs
+.env
+.env.*
+.streamlit/secrets.toml
+.vscode/
+.idea/
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+*.log
+.DS_Store
+Thumbs.db
+
+# Temporary files and one-off notebook review tools
+*.tmp
+*.temp
+*.bak
+~$*
+/.refine_notebook.py
+/.finalize_docs.py
+/outputs/_review_original.ipynb
+/outputs/notebook_review.txt
+/outputs/refinement_review.json
+/outputs/reproducibility_check.json
+/outputs/environment.json
+
+# Superseded chart exports; current figures remain tracked
+/outputs/application_acf.png
+/outputs/intervention_zoom.png
+/outputs/monthly_distributions.png
+/outputs/regional_counts.png

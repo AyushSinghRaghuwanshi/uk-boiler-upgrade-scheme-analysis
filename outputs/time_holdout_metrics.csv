@@ -1,0 +1,7 @@
+outcome,model,holdout_months,MAE_vouchers
+applications,Segmented,2,84.31160473505338
+applications,Trend + season,2,433.3355558234441
+applications,Same month last year,2,906.0
+paid,Segmented,2,152.90777684690488
+paid,Trend + season,2,124.96927964698898
+paid,Same month last year,2,327.5

@@ -14,7 +14,7 @@ After allowing for a fitted trend and a simple seasonal pattern, the model estim
 
 The model sample contains 316 of 318 BUS councils. Regional cumulative uptake ranges from 1.58 to 6.97 payments per 1,000 Census households. Detached housing has the clearest positive adjusted association.
 
-The best-performing prediction model has a held-out error of about 1.21 payments per 1,000 households, compared with 2.41 for a simple baseline. Its largest negative rate gaps include Tendring, South Holland, King’s Lynn and West Norfolk. Rankings change between models, so these are leads for local follow-up, not evidence of policy failure or unequal treatment.
+Nested geographic validation selects a model within each training set before evaluating held-out regions. It selected gradient boosting in every fold, giving an error of about 1.21 payments per 1,000 Census households, compared with 2.41 for a simple baseline. Its largest negative rate gaps include Tendring, South Holland, King’s Lynn and West Norfolk. Rankings change between models, so these are leads for local follow-up, not evidence of policy failure or unequal treatment.
 
 ## Implication
 

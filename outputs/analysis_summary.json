@@ -31,6 +31,51 @@
       "Poisson_deviance": 38.97227456546854
     }
   ],
+  "nested_cv_metrics": [
+    {
+      "evaluation": "Nested geographic model selection",
+      "MAE_count": 83.41922017604388,
+      "MAE_per_1000": 1.2137439897043525,
+      "Poisson_deviance": 38.97227456546854
+    }
+  ],
+  "nested_cv_selections": [
+    {
+      "outer_fold": 1,
+      "selected_model": "Gradient boosting",
+      "n_test": 64,
+      "inner_rate_MAE": 1.2195154179627528,
+      "outer_rate_MAE": 1.1198787810445856
+    },
+    {
+      "outer_fold": 2,
+      "selected_model": "Gradient boosting",
+      "n_test": 58,
+      "inner_rate_MAE": 1.1103612667566294,
+      "outer_rate_MAE": 1.53738525669097
+    },
+    {
+      "outer_fold": 3,
+      "selected_model": "Gradient boosting",
+      "n_test": 62,
+      "inner_rate_MAE": 1.187320992393336,
+      "outer_rate_MAE": 1.3106656174651876
+    },
+    {
+      "outer_fold": 4,
+      "selected_model": "Gradient boosting",
+      "n_test": 69,
+      "inner_rate_MAE": 1.2897723286780256,
+      "outer_rate_MAE": 1.099120613711218
+    },
+    {
+      "outer_fold": 5,
+      "selected_model": "Gradient boosting",
+      "n_test": 63,
+      "inner_rate_MAE": 1.2021355927150372,
+      "outer_rate_MAE": 1.0413003689322238
+    }
+  ],
   "its_contrasts": [
     {
       "outcome": "applications",

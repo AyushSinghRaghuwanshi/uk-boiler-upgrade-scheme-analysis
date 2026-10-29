@@ -1,3 +1,3 @@
-Council,Census code,BUS code,Decision
-Barnsley,E08000016,E08000038,Excluded: 2025 boundary change
-Sheffield,E08000019,E08000039,Excluded: 2025 boundary change
+Council,Census code,BUS code,Decision,Evidence
+Barnsley,E08000016,E08000038,Excluded: partial-area transfer on 1 April 2025; Census reallocation counts unavailable,https://www.legislation.gov.uk/uksi/2024/1328/contents/made
+Sheffield,E08000019,E08000039,Excluded: partial-area transfer on 1 April 2025; Census reallocation counts unavailable,https://www.legislation.gov.uk/uksi/2024/1328/contents/made

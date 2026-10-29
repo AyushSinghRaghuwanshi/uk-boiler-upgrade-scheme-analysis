@@ -23,17 +23,21 @@ Open the URL printed by Streamlit, normally `http://127.0.0.1:8501`. Press Ctrl+
 
 Create `.venv` only on a fresh checkout; an existing project environment can be reused. The saved notebook can be read on GitHub without running it. Processed data and validated outputs are included, so the dashboard can run before downloading the raw sources.
 
+For notebook-only work, install `requirements-analysis.txt` instead of `requirements.txt`. The notebook does not import or require Streamlit or Altair; the full requirements file adds those dashboard dependencies.
+
+With analysis-only dependencies, run just the analytical tests using `python -m unittest discover -s tests -p test_analysis.py -v`. The full suite below also tests Streamlit.
+
 ```powershell
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
 ```
 
-These smoke tests check navigation, period totals, regional filters, all four models, council selection and displayed metrics against actual exports. The local server also passed an HTTP health check. Browser visual QA was blocked because Computer Use could not verify Chrome's URL; no successful browser check is claimed.
+Tests check held-out target isolation, nested-selection provenance, reported metrics and dashboard filters against actual exports. The local server also passed an HTTP health check. Browser visual QA was blocked because Computer Use could not verify Chrome's URL; no successful browser check is claimed.
 
 ## Results
 
 The supplied vintage has 53 months and 96,185 paid hydronic redemptions. Mean applications rose **48.0%** and payments **52.8%** between June 2022–August 2023 and November 2023–April 2024. The fitted application contrast is **908/month** (95% HAC interval 666–1,151); the payment interval includes zero. These are associations, not identified causal effects.
 
-Council rates use cumulative payments per 1,000 Census 2021 households. Of 318 BUS districts, 316 can be modelled. Four unitary reorganisations use explicit sums of whole predecessor districts. [Barnsley](https://www.ons.gov.uk/explore-local-statistics/areas/E08000038-barnsley) and [Sheffield](https://www.ons.gov.uk/explore-local-statistics/areas/E08000039-sheffield) changed boundaries in 2025; old Census codes E08000016/E08000019 cannot safely be relabelled E08000038/E08000039. Both exclusions remain in the audit.
+Council rates use cumulative payments per 1,000 Census 2021 households. The Census has 331 original districts, harmonised to 318; 316 of 318 BUS districts can be modelled and two are excluded. Four unitary reorganisations use sums of whole predecessor districts. The [Barnsley and Sheffield Boundary Change Order 2024](https://www.legislation.gov.uk/uksi/2024/1328/contents/made) transferred part of Barnsley to Sheffield on 1 April 2025. [ONS Barnsley](https://www.ons.gov.uk/explore-local-statistics/areas/E08000038-barnsley) and [ONS Sheffield](https://www.ons.gov.uk/explore-local-statistics/areas/E08000039-sheffield) confirm replacement codes. Without category counts for the transferred area, old Census codes E08000016/E08000019 cannot safely be relabelled E08000038/E08000039. Both exclusions remain in the audit; `geographic_coverage.csv` records the counts.
 
 | Held-out model | Count MAE | Rate MAE / 1,000 | Mean Poisson deviance |
 |---|---:|---:|---:|
@@ -41,6 +45,8 @@ Council rates use cumulative payments per 1,000 Census 2021 households. Of 318 B
 | Poisson | 102.14 | 1.536 | 54.94 |
 | Negative binomial | 113.19 | 1.696 | 65.74 |
 | Gradient boosting | 83.42 | 1.214 | 38.97 |
+
+Nested selection chose gradient boosting in all 5 outer folds. Its evaluated selection-procedure errors are **1.214 payments per 1,000 Census households**, count MAE **83.42 payments**, and mean Poisson deviance **38.97** (unitless). These equal the boosting candidate scores because every inner selection chose that candidate.
 
 Detached-house share has the clearest positive conditional association. Gap rankings are model-sensitive and are leads for investigation, not evidence of policy failure.
 
@@ -50,7 +56,11 @@ Python, pandas, NumPy, Matplotlib, statsmodels and scikit-learn support the anal
 
 The main interrupted series excludes May 2022's partial launch and September/October 2023's transition. It fits trend, level and slope changes plus one annual harmonic, ending April 2024 before insulation eligibility changed. HAC uses three calendar-month lags, a finite-sample correction and t intervals. Missing-month scores are zero only in the covariance calculation; outcomes are never imputed. Calendar-lag residual correlations replace the earlier gap-compressed diagnostic. Sensitivities vary timing, seasonality, lag and end date.
 
-Poisson and NB2 use log-household offsets. NB2 dispersion is estimated inside training folds. Boosting fits rates with household weights, Poisson loss and fixed parameters. Five saved geographic folds preserve the original holdouts in `data/processed/geographic_cv_folds.csv`; regions are not predictors. Seed 42, single-thread numerical operations and pinned package versions improve repeatability. `outputs/environment.json` records the environment. Exact agreement across different library versions or hardware is not guaranteed. Candidate selection and evaluation share CV, so winning performance is somewhat optimistic.
+Poisson and NB2 use log-household offsets. Fixed row-level shares and unit conversions need no fitted preprocessing; no imputation or global scaler is used. NB2 dispersion and boosting's histogram bins are learnt inside each training split. Boosting uses household weights, Poisson loss and fixed parameters. Five saved geographic folds preserve the original holdouts in `data/processed/geographic_cv_folds.csv`; regions are not predictors.
+
+The four candidate scores above share the comparison folds, making the chosen winner's score selection-optimistic. Nested validation now chooses the model using four inner geographic folds within each outer training set, then evaluates that choice on the outer holdout. It reuses the already fitted candidate's outer predictions without using outer outcomes for selection. Inner memberships, model choices, convergence and metrics are exported as `nested_cv_*`. This evaluates the selection procedure for these fixed candidates; it is not an independent final fitted-model test, and earlier exploration and ten broad regions still limit generalisation.
+
+Seed 42, preserved row/fold order, single-thread numerical operations and pinned versions improve repeatability. `outputs/environment.json` records analysis dependencies only. Exact agreement across different library versions or hardware is not guaranteed.
 
 `data/processed/` holds cleaned data and join/boundary audits; `outputs/` holds figures, coefficients, sensitivities, metrics and keyed out-of-fold predictions. The dashboard reads these exports and does not refit models. SHA-256 hashes protect the six raw files. A deliberate data refresh requires a reviewed manifest and fold refresh.
 

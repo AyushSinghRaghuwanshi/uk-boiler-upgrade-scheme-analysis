@@ -1,6 +1,7 @@
 """Smoke-test dashboard filters against the notebook's actual exports."""
 
 from pathlib import Path
+import json
 import unittest
 
 import numpy as np
@@ -67,6 +68,9 @@ class DashboardTests(unittest.TestCase):
         expected = pd.read_csv(ROOT / "outputs/geographic_cv_metrics.csv")
         np.testing.assert_allclose(shown["Rate MAE / 1,000"], expected.MAE_per_1000.round(3))
         self.assertTrue(any("74%" in item.value for item in self.app.info))
+        summary = json.loads((ROOT / "outputs/analysis_summary.json").read_text())
+        score = summary["nested_cv_metrics"][0]["MAE_per_1000"]
+        self.assertTrue(any(f"rate MAE {score:.3f}" in item.value for item in self.app.markdown))
 
 
 if __name__ == "__main__":

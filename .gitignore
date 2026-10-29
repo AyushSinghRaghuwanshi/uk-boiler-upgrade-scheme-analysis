@@ -35,6 +35,7 @@ Thumbs.db
 ~$*
 /.refine_notebook.py
 /.finalize_docs.py
+/.technical_refinement.py
 /outputs/_review_original.ipynb
 /outputs/notebook_review.txt
 /outputs/refinement_review.json

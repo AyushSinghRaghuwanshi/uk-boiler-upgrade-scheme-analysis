@@ -309,7 +309,16 @@ else:
     st.write(
         "Five frozen folds hold out whole regions or Wales. Poisson and NB2 use household offsets; boosting uses "
         "household-weighted rates. Seed 42 and single-thread numeric operations improve repeatability. "
-        "Comparing candidates and selecting the best CV score is not an independent final test."
+        "The candidate scores above are used for model comparison, so the winning score is selection-optimistic."
+    )
+    nested = summary["nested_cv_metrics"][0]
+    st.write(
+        f"Nested geographic validation evaluates choosing the model inside each training split: "
+        f"rate MAE {nested['MAE_per_1000']:.3f} payments per 1,000 Census households, "
+        f"count MAE {nested['MAE_count']:.2f} payments and mean Poisson deviance "
+        f"{nested['Poisson_deviance']:.2f} (unitless). Four inner geographic folds select "
+        "the model; an untouched outer fold evaluates that selection. This remains a small "
+        "sample of ten broad geographic groups, not a guarantee of performance elsewhere."
     )
     st.subheader("What remains uncertain")
     st.write(

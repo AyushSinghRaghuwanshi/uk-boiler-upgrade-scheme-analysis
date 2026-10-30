@@ -28,7 +28,11 @@ Methodology provides definitions, exclusions and official source links. National
 
 **Public deployment:** configuration is ready for Render Free; account sign-in and repository authorisation are still required. See [deployment instructions and current limits](docs/deployment.md). No public URL has been created or verified.
 
-Application screenshots and visual responsive checks remain pending because browser access was unavailable. The image above is the genuine notebook chart, not a dashboard screenshot. [Browser verification checklist](docs/browser-testing.md).
+| Overview | Policy Analysis | Model Insights |
+|---|---|---|
+| ![BUS Insights overview page](docs/images/dashboard-overview.png) | ![BUS Insights policy analysis page](docs/images/dashboard-policy.png) | ![BUS Insights model insights page](docs/images/dashboard-models.png) |
+
+Screenshots are genuine captures of the running app (1440 × 1000, default filters). [Browser verification results](docs/browser-testing.md).
 
 ## Research questions
 
@@ -75,7 +79,7 @@ node --test tests/dashboard_interactions.test.cjs
 
 The runner uses a fresh temporary `.venv` kernel, regenerates `data/processed/` and `outputs/`, and saves notebook outputs. Raw-file hashes and saved fold memberships guard reproducibility. The older `streamlit_prototype.py` is retained separately with `requirements-prototype.txt`.
 
-**Verification:** automated tests cover routes, real filtered values, technology shares including zeros, council search/selection logic, model provenance and the minimal deployment data bundle. Live Flask and Waitress HTTP checks pass. Browser-rendered charts, console errors and layouts at 1440/1280/768/390px remain unverified; simulated interaction tests do not establish appearance. Docker is not installed locally, so its image build and public deployment remain untested.
+**Verification:** automated tests cover routes, real filtered values, technology shares including zeros, council search/selection logic, model provenance and the minimal deployment data bundle. Live Flask and Waitress HTTP checks pass. All five pages were checked in headless Chromium at 1440, 1280, 768 and 390px: every chart rendered, with no console errors, failed requests or horizontal page overflow. The Docker image build and public deployment remain untested.
 
 ## Main limitations
 

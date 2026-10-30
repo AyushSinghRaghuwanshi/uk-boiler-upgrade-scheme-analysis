@@ -1,8 +1,19 @@
 # Browser verification and screenshots
 
-Automated route/data/interaction checks pass, but these are not visual tests.
-The Computer Use connection was unavailable during this update. No browser
-viewport has been verified and no application screenshots have been captured.
+## Results (30 October 2026)
+
+All five pages were loaded in headless Chromium (Playwright) at **1440, 1280,
+768 and 390px** widths against the local Flask app with default filters.
+
+| Width | Pages returning 200 | Charts rendered | Console errors | Failed requests | Horizontal overflow |
+|---|---|---|---|---|---|
+| 1440 | 5/5 | all | 0 | 0 | none |
+| 1280 | 5/5 | all | 0 | 0 | none |
+| 768 | 5/5 | all | 0 | 0 | none |
+| 390 | 5/5 | all | 0 | 0 | none |
+
+Screenshots in `docs/images/dashboard-*.png` are genuine 1440 × 1000 captures.
+Not yet checked: keyboard focus order and hover/click interactions by hand.
 
 ## Responsive checks still required
 

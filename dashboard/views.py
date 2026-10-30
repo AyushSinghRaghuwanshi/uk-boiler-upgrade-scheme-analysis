@@ -4,8 +4,8 @@ import pandas as pd
 
 from .charts import (
     INK,
-    ORANGE,
-    TEAL,
+    BLUE,
+    SECONDARY_BLUE,
     GREY,
     figure,
     line,
@@ -34,7 +34,7 @@ def overview(root, args):
                 regions.paid_per_1000,
                 regions.region,
                 "Payments / 1,000",
-                TEAL,
+                SECONDARY_BLUE,
                 orientation="h",
                 hovertemplate="%{y}<br>%{x:.2f} / 1,000 households<extra></extra>",
             )
@@ -73,7 +73,13 @@ def overview(root, args):
                 "Monthly counts · dotted: 20 Sep announcement · dashed: 23 Oct implementation (2023).",
                 [
                     line(frame.index, frame.applications, "Applications"),
-                    line(frame.index, frame.paid, "Paid redemptions", ORANGE),
+                    line(
+                        frame.index,
+                        frame.paid,
+                        "Paid redemptions",
+                        SECONDARY_BLUE,
+                        dash="dash",
+                    ),
                 ],
                 shapes=policy_markers(),
                 xaxis=dict(
@@ -98,8 +104,8 @@ def overview(root, args):
                         labels=[labels[x] for x in shares.index],
                         textinfo="none",
                         marker=dict(
-                            colors=[INK, "#fff2d7", "#a94a16"],
-                            line=dict(color="#f5ad61", width=3),
+                            colors=[BLUE, SECONDARY_BLUE, INK],
+                            line=dict(color="#FFFFFF", width=3),
                         ),
                         hovertemplate="%{label}<br>%{value:,.0f} applications · %{percent}<extra></extra>",
                     )
@@ -124,7 +130,7 @@ def overview(root, args):
                             ]
                         ],
                         "Vouchers",
-                        ORANGE,
+                        BLUE,
                         hovertemplate="%{x}<br>%{y:,.0f}<extra></extra>",
                     )
                 ],
@@ -163,7 +169,7 @@ def policy(root, args):
         "95% projected-mean interval",
         GREY,
         fill="tonexty",
-        fillcolor="rgba(146,152,148,.18)",
+        fillcolor="rgba(120,136,150,.18)",
         hoverinfo="skip",
     )
     return dict(
@@ -211,7 +217,7 @@ def policy(root, args):
                     lower,
                     upper,
                     line(fit.month, fit.counterfactual, "No-break projection", GREY),
-                    line(fit.month, fit.fitted, "Segmented fit", ORANGE),
+                    line(fit.month, fit.fitted, "Segmented fit", BLUE),
                     dict(
                         type="scatter",
                         mode="markers",
@@ -232,7 +238,7 @@ def policy(root, args):
                         comparison.technology,
                         comparison.average_post_contrast,
                         "Application contrast",
-                        ORANGE,
+                        BLUE,
                         error_y=dict(
                             type="data",
                             symmetric=False,
@@ -339,7 +345,7 @@ def council(root, args):
                             1000 * frame.paid.sum() / frame.households.sum(),
                         ],
                         "Payments / 1,000",
-                        ORANGE,
+                        BLUE,
                     )
                 ],
                 showlegend=False,
@@ -353,7 +359,7 @@ def council(root, args):
                         shares,
                         housing,
                         "Share",
-                        TEAL,
+                        SECONDARY_BLUE,
                         orientation="h",
                         hovertemplate="%{y}<br>%{x:.1f}%<extra></extra>",
                     )
@@ -426,7 +432,7 @@ def models(root, args):
             figure(
                 "How the candidates compare",
                 "Five geographic holdouts · comparison scores share selection data; lower MAE is better.",
-                [bar(scores.model, scores.MAE_per_1000, "Rate MAE", ORANGE)],
+                [bar(scores.model, scores.MAE_per_1000, "Rate MAE", BLUE)],
                 showlegend=False,
                 yaxis=dict(title=dict(text="MAE: payments / 1,000 households")),
             ),
@@ -445,7 +451,7 @@ def models(root, args):
                         type="histogram",
                         x=residual.tolist(),
                         name="Rate residual",
-                        marker=dict(color=TEAL),
+                        marker=dict(color=SECONDARY_BLUE),
                         nbinsx=22,
                     )
                 ],
@@ -465,7 +471,7 @@ def models(root, args):
                         .str.replace("_share", "")
                         .str.replace("_", " ")
                         .tolist(),
-                        marker=dict(color=ORANGE, size=9),
+                        marker=dict(color=BLUE, size=9),
                         name="Rate ratio",
                         error_x=dict(
                             type="data",

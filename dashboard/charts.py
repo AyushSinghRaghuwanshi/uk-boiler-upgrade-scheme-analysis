@@ -1,9 +1,9 @@
 """Small Plotly.js figure builders; no plotting service or model fitting."""
 
-INK = "#252624"
-ORANGE = "#df6b25"
-TEAL = "#337d7a"
-GREY = "#929894"
+INK = "#1F3C5A"
+BLUE = "#2F5D8A"
+SECONDARY_BLUE = "#527FA9"
+GREY = "#788896"
 
 
 def figure(title, note, traces, *, accent=False, **layout):
@@ -16,7 +16,7 @@ def figure(title, note, traces, *, accent=False, **layout):
     }
 
 
-def line(x, y, name, color=INK, **kwargs):
+def line(x, y, name, color=INK, dash="solid", **kwargs):
     return dict(
         type="scatter",
         mode="lines+markers",
@@ -24,13 +24,13 @@ def line(x, y, name, color=INK, **kwargs):
         x=list(x),
         y=list(y),
         name=name,
-        line=dict(color=color, width=2.5),
+        line=dict(color=color, width=2.5, dash=dash),
         hovertemplate="%{x|%b %Y}<br>%{y:,.0f}<extra>%{fullData.name}</extra>",
         **kwargs,
     )
 
 
-def bar(x, y, name, color=ORANGE, **kwargs):
+def bar(x, y, name, color=BLUE, **kwargs):
     return dict(
         type="bar",
         x=list(x),
@@ -55,7 +55,7 @@ def policy_markers():
         )
         for date, color, dash in [
             ("2023-09-20", GREY, "dot"),
-            ("2023-10-23", ORANGE, "dash"),
+            ("2023-10-23", BLUE, "dash"),
         ]
     ]
 
@@ -72,7 +72,7 @@ def actual_expected(frame):
             customdata=frame.code.tolist(),
             name="Councils",
             marker=dict(
-                color=ORANGE, size=8, opacity=0.72, line=dict(color="white", width=1)
+                color=BLUE, size=8, opacity=0.72, line=dict(color="white", width=1)
             ),
             hovertemplate="%{text}<br>Expected %{x:.2f}<br>Observed %{y:.2f}<extra></extra>",
         ),

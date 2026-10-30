@@ -6,12 +6,12 @@ function chartLayout(spec) {
   const base = {
     autosize: true,
     paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)",
-    font: {family: "Inter, Segoe UI, Arial, sans-serif", color: "#41453f", size: 11},
+    font: {family: "Inter, Segoe UI, Arial, sans-serif", color: "#52606D", size: 11},
     margin: {l: 56, r: 18, t: 12, b: 76},
-    xaxis: {gridcolor: "#e2e5df", zeroline: false, automargin: true, tickfont: {size: 10}},
-    yaxis: {gridcolor: "#e2e5df", zerolinecolor: "#cdd2c9", automargin: true},
+    xaxis: {gridcolor: "#E5EAF0", zeroline: false, automargin: true, tickfont: {size: 10}},
+    yaxis: {gridcolor: "#E5EAF0", zerolinecolor: "#DCE8F3", automargin: true},
     legend: {orientation: "h", x: 0, y: small ? -.3 : -.22, font: {size: 10}},
-    hoverlabel: {bgcolor: "#fff", font: {color: "#252624"}},
+    hoverlabel: {bgcolor: "#fff", font: {color: "#1F2933"}},
     showlegend: true,
   };
   const layout = {...base, ...spec.layout};

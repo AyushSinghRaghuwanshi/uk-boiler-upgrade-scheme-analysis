@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: bus-insights
+    runtime: docker
+    plan: free
+    branch: main
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    autoDeployTrigger: commit

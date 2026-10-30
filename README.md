@@ -1,6 +1,6 @@
 # UK Boiler Upgrade Scheme
 
-Did the October 2023 grant increase correspond to a change in scheme activity? Which councils have fewer paid heat pump redemptions than their housing and gas access suggest?
+Did the October 2023 heat-pump grant changes correspond to a change in scheme activity? Which councils have fewer paid heat pump redemptions than their housing and gas access suggest?
 
 This independent educational project explores those questions using six official datasets. Better evidence can help distinguish changes in demand from gaps that need local investigation. It does not reproduce ICF's commissioned evaluation and is not endorsed by ICF, DESNZ or ONS.
 
@@ -8,34 +8,50 @@ This independent educational project explores those questions using six official
 
 - [Executed notebook](notebooks/01_data_understanding.ipynb): 13 inline figures, short working notes and the full analysis.
 - [Policy summary](policy_summary.md): the nontechnical findings.
-- `app.py`: local Streamlit explorer for national trends, regions, councils and held-out predictions.
+- `dashboard/`: **BUS Insights**, the recommended custom Flask + Jinja + Plotly.js dashboard.
+- `streamlit_prototype.py`: previous prototype, retained separately.
 
 From the project root in PowerShell, using Python 3.12.10:
 
 ```powershell
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe run_notebook.py
-.\.venv\Scripts\python.exe -m streamlit run app.py --server.address 127.0.0.1
+.\.venv\Scripts\python.exe -m flask --app dashboard.app run --host 127.0.0.1 --port 5000
 ```
 
-Open the URL printed by Streamlit, normally `http://127.0.0.1:8501`. Press Ctrl+C to stop it. In VS Code, select `.venv\Scripts\python.exe` as the notebook interpreter. Paths work from the project root or notebook folder. The runner creates a fresh temporary kernel and saves embedded outputs without installing a global kernel.
+Open **http://127.0.0.1:5000** in Chrome. Ctrl+C stops the local development server; rerun the same command to restart. Reuse the existing `.venv` rather than recreating it. This command serves a local development app, not a public production deployment.
 
-Create `.venv` only on a fresh checkout; an existing project environment can be reused. The saved notebook can be read on GitHub without running it. Processed data and validated outputs are included, so the dashboard can run before downloading the raw sources.
+Small processed datasets and validated results are included, so the dashboard works without raw downloads or model training. Dashboard-only installation: `pip install -r requirements-dashboard.txt` (Flask and pandas). Plotly.js 4.1.1 is bundled locally under MIT; no frontend build, CDN or Python Plotly dependency is needed. See [third-party notices](dashboard/THIRD_PARTY_NOTICES.md).
 
-For notebook-only work, install `requirements-analysis.txt` instead of `requirements.txt`. The notebook does not import or require Streamlit or Altair; the full requirements file adds those dashboard dependencies.
+### Explore BUS Insights
 
-With analysis-only dependencies, run just the analytical tests using `python -m unittest discover -s tests -p test_analysis.py -v`. The full suite below also tests Streamlit.
+| Page | Controls and evidence |
+|---|---|
+| Overview | Month range and hydronic technology update national KPIs, timeline, technology mix and voucher-stage flows. Regional rates and council coverage are explicitly fixed cumulative context. |
+| Policy Analysis | Combined hydronic or air-to-water application estimates; identical fixed June 2022–April 2024 model window, uncertainty and no-break projection. |
+| Council Explorer | Searchable council selection, region and candidate model; observed/expected rates, housing, scatter selection and complete ranked table. |
+| Model Insights | Region and candidate control held-out diagnostic plots; full-sample geographic and nested validation scores remain fixed and labelled. |
+| Methodology | Research questions, definitions, sources, validation, exclusions and limitations. |
+
+National monthly data and cumulative council data have different grains; there is no invented monthly or technology-specific council filter. Policy filters change displayed exports, not the estimation window. `/api/overview`, `/api/policy`, `/api/councils` and `/api/models` expose the same payloads used by the pages. `/health` checks representative exports. Missing files show an actionable 503; invalid filters return 400.
+
+### Reproduce the notebook and outputs
+
+Download the six original sources below, then run:
 
 ```powershell
+.\.venv\Scripts\python.exe run_notebook.py
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
+node --test tests/dashboard_interactions.test.cjs
 ```
 
-Tests check held-out target isolation, nested-selection provenance, reported metrics and dashboard filters against actual exports. The local server also passed an HTTP health check. Browser visual QA was blocked because Computer Use could not verify Chrome's URL; no successful browser check is claimed.
+The runner executes a fresh temporary kernel using this project's `.venv`, saves all embedded outputs, and regenerates `data/processed/` and `outputs/`, including `its_technology_sensitivity.csv` and `its_technology_fitted.csv`. Select `.venv\Scripts\python.exe` in VS Code. Analysis-only dependencies are in `requirements-analysis.txt`; neither Flask nor Streamlit is needed for the notebook. The optional old prototype uses `requirements-prototype.txt` and `python -m streamlit run streamlit_prototype.py`.
+
+Eight Python tests check held-out target isolation, nested selection provenance, routes, real filtered values, policy exports, model diagnostics and missing-data handling. JavaScript interaction tests cover chart dispatch, region changes, council search and scatter selection. The server passed live HTTP checks and a restart; chart specifications passed Plotly schema validation. **Browser visual QA was unavailable:** Chrome automation failed to activate its captured window, so chart rendering, browser console errors and layouts at 1440/1280/768/390px were not visually verified. Responsive CSS, local assets, visible keyboard focus and reduced-motion support are implemented. No screenshot was present in the supplied attachment; the written design brief guided the interface.
 
 ## Results
 
-The supplied vintage has 53 months and 96,185 paid hydronic redemptions. Mean applications rose **48.0%** and payments **52.8%** between June 2022–August 2023 and November 2023–April 2024. The fitted application contrast is **908/month** (95% HAC interval 666–1,151); the payment interval includes zero. These are associations, not identified causal effects.
+The supplied vintage has 53 months and 96,185 paid hydronic redemptions. Mean applications rose **48.0%** and payments **52.8%** between June 2022–August 2023 and November 2023–April 2024. The fitted application contrast is **908/month** (95% HAC interval 666–1,151); the payment interval includes zero. The same specification restricted to air-to-water applications gives **901/month** (95% HAC interval 667–1,135). These are associations, not identified causal effects. Air-to-water grants rose £5,000 → £7,500; ground-source grants rose £6,000 → £7,500. The combined hydronic series includes shared ground loops and does not represent a uniform £2,500 increase.
 
 Council rates use cumulative payments per 1,000 Census 2021 households. The Census has 331 original districts, harmonised to 318; 316 of 318 BUS districts can be modelled and two are excluded. Four unitary reorganisations use sums of whole predecessor districts. The [Barnsley and Sheffield Boundary Change Order 2024](https://www.legislation.gov.uk/uksi/2024/1328/contents/made) transferred part of Barnsley to Sheffield on 1 April 2025. [ONS Barnsley](https://www.ons.gov.uk/explore-local-statistics/areas/E08000038-barnsley) and [ONS Sheffield](https://www.ons.gov.uk/explore-local-statistics/areas/E08000039-sheffield) confirm replacement codes. Without category counts for the transferred area, old Census codes E08000016/E08000019 cannot safely be relabelled E08000038/E08000039. Both exclusions remain in the audit; `geographic_coverage.csv` records the counts.
 
@@ -52,7 +68,7 @@ Detached-house share has the clearest positive conditional association. Gap rank
 
 ## Methods and reproducibility
 
-Python, pandas, NumPy, Matplotlib, statsmodels and scikit-learn support the analysis; Streamlit and Altair provide the dashboard. Numeric conversion preserves suppression/missingness, geographic joins use codes, and totals reconcile to published figures.
+Python, pandas, NumPy, Matplotlib, statsmodels and scikit-learn support the analysis; Flask, Jinja, custom CSS and vanilla JavaScript provide BUS Insights; Plotly.js supplies interactive charts. Numeric conversion preserves suppression/missingness, geographic joins use codes, and totals reconcile to published figures.
 
 The main interrupted series excludes May 2022's partial launch and September/October 2023's transition. It fits trend, level and slope changes plus one annual harmonic, ending April 2024 before insulation eligibility changed. HAC uses three calendar-month lags, a finite-sample correction and t intervals. Missing-month scores are zero only in the covariance calculation; outcomes are never imputed. Calendar-lag residual correlations replace the earlier gap-compressed diagnostic. Sensitivities vary timing, seasonality, lag and end date.
 

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Independent analysis of UK Boiler Upgrade Scheme policy, uptake and council-level predictions.">
+  <title>{{ title|default('Analysis unavailable') }} · BUS Insights</title>
+  <link rel="icon" href="{{ url_for('static', filename='logo.svg') }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/dashboard.css') }}">
+  {% block scripts %}{% endblock %}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="app-shell">
+    <header class="app-header">
+      <a class="brand" href="/" aria-label="BUS Insights home">
+        <img src="{{ url_for('static', filename='logo.svg') }}" width="44" height="44" alt="">
+        <span><strong>BUS<span class="brand-light"> Insights</span></strong><small>POLICY & UPTAKE ANALYTICS</small></span>
+      </a>
+      <nav aria-label="Main navigation">
+        {% for slug, details in pages.items() %}
+        <a href="{{ '/' if slug == 'overview' else '/' ~ slug }}" {% if page|default('') == slug %}class="active" aria-current="page"{% endif %}>{{ details[0] }}</a>
+        {% endfor %}
+      </nav>
+      <span class="source-badge"><span></span> Official data · Sep 2026</span>
+    </header>
+    <main id="main">
+      <div class="page-heading">
+        <div><p class="eyebrow">UK BOILER UPGRADE SCHEME <span>/ {{ title|default('DATA STATUS')|upper }}</span></p>
+        <h1>{{ heading|default('Let’s get the data back in view.') }}</h1>
+        <p class="subtitle">UK Boiler Upgrade Scheme | Policy & Uptake Analytics</p></div>
+        <a class="text-link" href="/methodology">About the evidence <span aria-hidden="true">↗</span></a>
+      </div>
+      {% block content %}{% endblock %}
+    </main>
+    <footer>
+      <span><strong>BUS Insights</strong> · Independent educational analysis. Not endorsed by ICF, DESNZ or ONS.</span>
+      <span>Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">OGL v3.0</a>.</span>
+    </footer>
+  </div>
+</body>
+</html>

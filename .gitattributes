@@ -1,3 +1,5 @@
 * text=auto eol=lf
 # Preserve the executed notebook byte-for-byte, including its embedded outputs.
 *.ipynb -text whitespace=cr-at-eol
+# Preserve the third-party chart bundle without source formatting checks.
+dashboard/static/js/plotly.min.js -text -diff -whitespace

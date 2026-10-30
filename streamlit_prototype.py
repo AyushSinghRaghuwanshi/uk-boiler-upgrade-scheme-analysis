@@ -1,4 +1,4 @@
-"""Local explorer for the notebook's cleaned data and held-out model results."""
+"""Previous Streamlit prototype. The recommended app is dashboard/app.py (Flask)."""
 
 from pathlib import Path
 import json

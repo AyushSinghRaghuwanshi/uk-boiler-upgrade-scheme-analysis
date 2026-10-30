@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% block scripts %}
+<script defer src="{{ url_for('static', filename='js/plotly.min.js') }}"></script>
+<script defer src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+{% endblock %}
+{% block content %}
+  <form class="filter-bar" method="get" aria-label="Analysis filters">
+    <div class="filter-intro"><span class="filter-icon" aria-hidden="true">☷</span><span>Explore the data<small>Refine your view</small></span></div>
+    {% if months %}
+    <label>From<select name="start">{% for month in months %}<option {{ 'selected' if filters.start == month }}>{{ month }}</option>{% endfor %}</select></label>
+    <label>To<select name="end">{% for month in months %}<option {{ 'selected' if filters.end == month }}>{{ month }}</option>{% endfor %}</select></label>
+    {% endif %}
+    {% if technologies %}
+    <label>Heat pump technology<select name="technology">{% for technology in technologies %}<option {{ 'selected' if filters.technology == technology }}>{{ technology }}</option>{% endfor %}</select></label>
+    {% endif %}
+    {% if regions %}
+    <label>Region<select name="region" id="region-filter">{% for region in regions %}<option {{ 'selected' if filters.region == region }}>{{ region }}</option>{% endfor %}</select></label>
+    <label>Prediction model<select name="model">{% for model in models %}<option {{ 'selected' if filters.model == model }}>{{ model }}</option>{% endfor %}</select></label>
+    {% endif %}
+    {% if council_options %}
+    <label class="council-control">Council search<input type="search" id="council-search" placeholder="Find a council…" aria-label="Search council options" autocomplete="off"></label>
+    <label class="council-control">Local authority<select name="council" id="council-filter">{% for council in council_options %}<option value="{{ council.code }}" {{ 'selected' if filters.council == council.code }}>{{ council.name }}</option>{% endfor %}</select></label>
+    {% endif %}
+    <button class="button-primary" type="submit">Apply filters <span aria-hidden="true">↗</span></button>
+    <a class="reset-link" href="/{{ page if page != 'overview' else '' }}">Reset</a>
+  </form>
+  <p class="scope"><span class="scope-dot" aria-hidden="true"></span>{{ scope }}</p>
+  <section class="kpi-grid" aria-label="Key statistics">
+    {% for item in kpis %}
+    <article class="kpi"><div class="kpi-top"><h2>{{ item.label }}</h2><span aria-hidden="true">{{ '%02d'|format(loop.index) }}</span></div>
+      <p class="kpi-value">{{ item.value }}<span>{{ item.unit }}</span></p><p class="kpi-detail">{{ item.detail }}</p>
+    </article>
+    {% endfor %}
+  </section>
+  <div class="section-heading"><h2>{{ 'Scheme activity at a glance' if page == 'overview' else title }}</h2><span>Explore charts · hover for detail</span></div>
+  <section class="chart-grid {{ 'overview-grid' if page == 'overview' }}" aria-label="Interactive analysis charts">
+    {% for chart in charts %}
+    <article class="chart-card {{ 'accent-card' if chart.accent }}">
+      <div class="chart-heading"><span class="chart-index">{{ '%02d'|format(loop.index) }} /</span><h3>{{ chart.title }}</h3><span class="chart-arrow" aria-hidden="true">↗</span></div>
+      <p class="chart-note">{{ chart.note }}</p>
+      <div class="chart" id="chart-{{ loop.index0 }}" role="img" aria-label="{{ chart.title }}. {{ chart.note }}" tabindex="0"></div>
+    </article>
+    {% endfor %}
+  </section>
+  <aside class="evidence-note"><span class="note-icon" aria-hidden="true">i</span><div><h2>Read the evidence in context</h2><p>{{ notice }}</p></div><a href="/methodology" aria-label="Read methodology and limitations">↗</a></aside>
+  {% if rows %}
+  <section class="table-card">
+    <div class="section-heading"><h2>{{ table_title }}</h2><span>Notebook exports · no live refitting</span></div>
+    <div class="table-scroll" tabindex="0" role="region" aria-label="{{ table_title }}">
+      <table><thead><tr>{% for key, label in columns %}<th scope="col">{{ label }}</th>{% endfor %}</tr></thead>
+      <tbody>{% for row in rows %}<tr {% if row.code is defined and row.code == filters.council|default('') %}class="selected-row"{% endif %}>{% for key, label in columns %}<td>{% if key == 'name' %}<a href="/councils?region={{ filters.region|urlencode }}&model={{ filters.model|urlencode }}&council={{ row.code }}">{{ row[key] }}</a>{% else %}{{ row[key]|number }}{% endif %}</td>{% endfor %}</tr>{% endfor %}</tbody></table>
+    </div>
+  </section>
+  {% endif %}
+  <script type="application/json" id="chart-data">{{ charts|tojson }}</script>
+  <noscript><p class="evidence-note">Enable JavaScript for interactive charts. Summary statistics and data tables remain available above.</p></noscript>
+{% endblock %}

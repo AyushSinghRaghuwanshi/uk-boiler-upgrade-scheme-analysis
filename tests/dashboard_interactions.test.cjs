@@ -41,6 +41,9 @@ test('charts receive data, responsive layout and local interaction settings', as
     assert.equal(charts[0].data[0].y[0], 2);
     assert.equal(charts[0].layout.xaxis.title.text, 'Expected');
     assert.equal(charts[0].config.responsive, true);
+    assert.equal(charts[0].config.displayModeBar, false);
+    assert.ok(charts[0].layout.xaxis.tickfont.size >= 12);
+    assert.ok(charts[0].layout.legend.font.size >= 12);
     assert.equal(charts[0].config.showSendToCloud, false);
   }
 });

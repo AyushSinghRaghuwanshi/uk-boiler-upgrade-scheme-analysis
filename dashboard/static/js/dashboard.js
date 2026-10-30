@@ -6,11 +6,11 @@ function chartLayout(spec) {
   const base = {
     autosize: true,
     paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "rgba(0,0,0,0)",
-    font: {family: "Inter, Segoe UI, Arial, sans-serif", color: "#52606D", size: 11},
+    font: {family: "Inter, Segoe UI, Arial, sans-serif", color: "#52606D", size: 12},
     margin: {l: 56, r: 18, t: 12, b: 76},
-    xaxis: {gridcolor: "#E5EAF0", zeroline: false, automargin: true, tickfont: {size: 10}},
-    yaxis: {gridcolor: "#E5EAF0", zerolinecolor: "#DCE8F3", automargin: true},
-    legend: {orientation: "h", x: 0, y: small ? -.3 : -.22, font: {size: 10}},
+    xaxis: {gridcolor: "#E5EAF0", zeroline: false, automargin: true, tickfont: {size: 12}},
+    yaxis: {gridcolor: "#E5EAF0", zerolinecolor: "#DCE8F3", automargin: true, tickfont: {size: 12}},
+    legend: {orientation: "h", x: 0, y: small ? -.3 : -.22, font: {size: 12}},
     hoverlabel: {bgcolor: "#fff", font: {color: "#1F2933"}},
     showlegend: true,
   };
@@ -30,7 +30,7 @@ async function renderCharts() {
     try {
       if (!window.Plotly) throw new Error("Chart library unavailable");
       await Plotly.newPlot(target, spec.data, chartLayout(spec), {
-        responsive: true, displaylogo: false, showSendToCloud: false,
+        responsive: true, displayModeBar: false, displaylogo: false, showSendToCloud: false,
         modeBarButtonsToRemove: ["select2d", "lasso2d", "sendDataToCloud"],
         toImageButtonOptions: {format: "svg", filename: "bus-insights"},
       });

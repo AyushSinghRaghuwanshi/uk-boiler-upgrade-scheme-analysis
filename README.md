@@ -27,7 +27,7 @@ Small processed datasets and validated results are included, so the dashboard wo
 
 | Page | Controls and evidence |
 |---|---|
-| Overview | Month range and hydronic technology update national KPIs, timeline, technology mix and voucher-stage flows. Regional rates and council coverage are explicitly fixed cumulative context. |
+| Overview | Month range and hydronic technology update national KPIs, timeline and voucher-stage flows. The percentage-bar technology mix always compares all three hydronic technologies for the selected dates, with counts and shares, including zero categories. Regional rates and council coverage are explicitly fixed cumulative context. |
 | Policy Analysis | Combined hydronic or air-to-water application estimates; identical fixed June 2022–April 2024 model window, uncertainty and no-break projection. |
 | Council Explorer | Searchable council selection, region and candidate model; observed/expected rates, housing, scatter selection and complete ranked table. |
 | Model Insights | Region and candidate control held-out diagnostic plots; full-sample geographic and nested validation scores remain fixed and labelled. |
@@ -47,7 +47,7 @@ node --test tests/dashboard_interactions.test.cjs
 
 The runner executes a fresh temporary kernel using this project's `.venv`, saves all embedded outputs, and regenerates `data/processed/` and `outputs/`, including `its_technology_sensitivity.csv` and `its_technology_fitted.csv`. Select `.venv\Scripts\python.exe` in VS Code. Analysis-only dependencies are in `requirements-analysis.txt`; neither Flask nor Streamlit is needed for the notebook. The optional old prototype uses `requirements-prototype.txt` and `python -m streamlit run streamlit_prototype.py`.
 
-Eight Python tests cover held-out target isolation, nested selection provenance, routes, filtered values, policy exports, model diagnostics and missing-data handling. Five JavaScript tests cover chart configuration, region changes, council search, scatter selection and chart-load errors. Live HTTP and restart checks passed; chart specifications passed Plotly schema validation. Responsive CSS, visible keyboard focus and reduced-motion support are implemented. Browser rendering and responsive layouts at 1440/1280/768/390px remain unverified.
+Nine Python tests cover held-out target isolation, nested selection provenance, routes, filtered values, technology shares and zero totals, policy exports, model diagnostics and missing-data handling. Five JavaScript tests cover responsive chart configuration with the toolbar hidden, region changes, council search, scatter selection and chart-load errors. Live HTTP and restart checks passed; chart specifications passed Plotly schema validation. Responsive CSS, visible keyboard focus and reduced-motion support are implemented. Browser rendering and responsive layouts at 1440/1280/768/390px remain unverified.
 
 ## Results
 

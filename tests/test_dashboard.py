@@ -11,6 +11,7 @@ import pandas as pd
 
 from dashboard.app import create_app
 from dashboard.data import TECHNOLOGIES, MODELS
+from dashboard.views import technology_mix
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -85,10 +86,24 @@ class DashboardTests(unittest.TestCase):
                     payload["kpis"][index]["value"], f"{expected[status].sum():,.0f}"
                 )
             self.assertEqual(payload["kpis"][2]["value"], "6")
-            self.assertAlmostEqual(
-                sum(payload["charts"][1]["data"][0]["values"]),
-                expected["Voucher applications received"].sum(),
+            all_applications = (
+                source.loc[
+                    source["Technology type"].isin(TECHNOLOGIES.values())
+                    & source.month.between("2023-11-01", "2024-04-01")
+                    & source["Voucher status"].eq("Voucher applications received")
+                ]
+                .groupby("Technology type")
+                .value.sum()
+                .reindex(TECHNOLOGIES.values())
             )
+            mix = payload["charts"][1]["data"][0]
+            self.assertEqual(mix["type"], "bar")
+            self.assertEqual(mix["y"], list(TECHNOLOGIES))
+            np.testing.assert_allclose(mix["customdata"], all_applications)
+            np.testing.assert_allclose(
+                mix["x"], 100 * all_applications / all_applications.sum()
+            )
+            self.assertAlmostEqual(sum(mix["x"]), 100)
             self.assertAlmostEqual(
                 payload["charts"][3]["data"][0]["y"][-1],
                 expected["Redemptions paid"].sum(),
@@ -104,6 +119,18 @@ class DashboardTests(unittest.TestCase):
             single["charts"][0]["layout"]["xaxis"]["range"],
             ["2025-01-01", "2025-01-31"],
         )
+
+    def test_technology_mix_zero_counts_and_visible_labels(self):
+        for counts in [[100, 0, 0], [0, 0, 0], [1, 1, 1]]:
+            spec = technology_mix(pd.Series(counts))
+            trace = spec["data"][0]
+            self.assertEqual(trace["customdata"], counts)
+            self.assertEqual(len(spec["layout"]["yaxis"]["ticktext"]), 3)
+            self.assertTrue(np.isfinite(trace["x"]).all())
+            self.assertAlmostEqual(sum(trace["x"]), 100 if sum(counts) else 0)
+            for label, count in zip(spec["layout"]["yaxis"]["ticktext"], counts):
+                self.assertIn(f"{count:,.0f}", label)
+                self.assertIn("%" if sum(counts) else "n/a", label)
 
     def test_council_regions_models_and_selected_record(self):
         source = pd.read_csv(ROOT / "data/processed/local_authorities_model.csv")

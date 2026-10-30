@@ -74,9 +74,14 @@ def monthly(root, args):
     )
     pivot.index = pivot.index.strftime("%Y-%m-%d")
     shares = (
-        selected.loc[selected["Voucher status"].eq("Voucher applications received")]
+        frame.loc[
+            frame["Technology type"].isin(TECHNOLOGIES.values())
+            & frame.month.dt.strftime("%Y-%m").between(start, end)
+            & frame["Voucher status"].eq("Voucher applications received")
+        ]
         .groupby("Technology type")
         .value.sum()
+        .reindex(TECHNOLOGIES.values(), fill_value=0)
     )
     return pivot, shares, {"start": start, "end": end, "technology": technology}, months
 

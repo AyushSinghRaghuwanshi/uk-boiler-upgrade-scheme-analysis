@@ -20,6 +20,71 @@ def kpi(label, value, detail, unit=""):
     return dict(label=label, value=value, detail=detail, unit=unit)
 
 
+def technology_mix(counts):
+    total = counts.sum()
+    percentages = 100 * counts / total if total > 0 else counts * 0
+    labels = list(TECHNOLOGIES)
+    values = [
+        (
+            f"{label}<br>{count:,.0f} · {percentage:.2f}%"
+            if total > 0
+            else f"{label}<br>{count:,.0f} · n/a"
+        )
+        for label, count, percentage in zip(labels, counts, percentages)
+    ]
+    return figure(
+        "Technology mix",
+        "All three hydronic technologies in the selected date range, regardless of the technology filter. Labels show application counts and share.",
+        [
+            dict(
+                type="bar",
+                orientation="h",
+                x=percentages.tolist(),
+                y=labels,
+                customdata=counts.tolist(),
+                name="Applications",
+                marker=dict(color=[BLUE, SECONDARY_BLUE, INK], cornerradius=5),
+                hovertemplate=(
+                    "%{y}<br>%{customdata:,.0f} applications<br>%{x:.2f}% of hydronic applications<extra></extra>"
+                    if total > 0
+                    else "%{y}<br>0 applications<br>Share unavailable: total is zero<extra></extra>"
+                ),
+            )
+        ],
+        accent=True,
+        showlegend=False,
+        bargap=0.5,
+        margin=dict(l=145, r=18, t=12, b=56),
+        xaxis=dict(
+            range=[0, 100],
+            ticksuffix="%",
+            tickvals=[0, 50, 100],
+            title=dict(text="Share of hydronic applications"),
+        ),
+        yaxis=dict(
+            tickmode="array",
+            tickvals=labels,
+            ticktext=values,
+            autorange="reversed",
+            showgrid=False,
+        ),
+        annotations=(
+            []
+            if total > 0
+            else [
+                dict(
+                    text="No applications recorded",
+                    x=0.5,
+                    y=1.05,
+                    xref="paper",
+                    yref="paper",
+                    showarrow=False,
+                )
+            ]
+        ),
+    )
+
+
 def overview(root, args):
     frame, shares, filters, months = monthly(root, args)
     regions = table(root, "outputs/regional_uptake_rates.csv").sort_values(
@@ -43,7 +108,6 @@ def overview(root, args):
         margin=dict(l=120),
         showlegend=False,
     )
-    labels = {v: k for k, v in TECHNOLOGIES.items()}
     return dict(
         filters=filters,
         months=months,
@@ -93,26 +157,7 @@ def overview(root, args):
                 yaxis=dict(title=dict(text="Monthly vouchers")),
                 hovermode="x unified",
             ),
-            figure(
-                "Technology mix",
-                "Application share within the selected technology and date range.",
-                [
-                    dict(
-                        type="pie",
-                        hole=0.76,
-                        values=shares.tolist(),
-                        labels=[labels[x] for x in shares.index],
-                        textinfo="none",
-                        marker=dict(
-                            colors=[BLUE, SECONDARY_BLUE, INK],
-                            line=dict(color="#FFFFFF", width=3),
-                        ),
-                        hovertemplate="%{label}<br>%{value:,.0f} applications · %{percent}<extra></extra>",
-                    )
-                ],
-                accent=True,
-                legend=dict(orientation="h", y=-0.08),
-            ),
+            technology_mix(shares),
             regional_fig,
             figure(
                 "The voucher journey",
